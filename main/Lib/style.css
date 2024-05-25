@@ -1,108 +1,154 @@
-
-* {
+:root {
+    --main-text-font:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
+    outline: none;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.space-between {
+    justify-content: space-between;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.top{
+    padding: 10px 0;
+    align-items: center;
+    display: block;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    /* background-color: rgba(205, 23, 23, 0.3); */
+    transition: all 0.3s ease;
+}
+.top:hover{
+    background-color: rgb(140, 224, 247);
 }
 
-body {
+.top-logo{
+    flex:0.5;
+}
+
+.top-menu-items{
+    flex: 3.5;
+}
+.top-menu-items >ul{
+    height: 100%;
+    display: flex;
+}
+.top-menu-items > ul > li{
+    font-family: var(--main-text-font);
+    padding: 0 12px;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
-    background: url(wallpaperflare.com_wallpaper\ \(5\).jpg) no-repeat;
-    
-    background-size: cover;
-    background-position: center;
-}
-
-.wrapper {
-    width: 420px;
-    background: transparent;
-    border: 2px solid rgba(255, 255, 255, .2);
-    backdrop-filter: blur(20px);
-    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
-    color: #fff;
-    border-radius: 10px;
-    padding: 30px 40px;
-}
-
-.wrapper h1 {
-    font-size: 36px;
-    text-align: center;
-
-}
-
-.wrapper .input-box {
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
     position: relative;
+}
+.top-menu-items > ul > li a{
+  color: black;
+}
+.top-menu-items ul li::before{
+    position: absolute;
+    content: "";
+    display: block;
     width: 100%;
     height: 50px;
-    margin: 30px 0;
+    bottom: -50%;
 }
-
-.input-box input {
-    width: 100%;
-    height: 100%;
-    background: transparent;
-    border: none;
-    outline: none;
-    border: 2px solid rgba(255, 255, 255, .2);
-    border-radius: 40px;
-    font-size: 16px;
-    color: #fff;
-    padding: 20px 45px 20px 20px;
-}
-
-.input-box input::placeholder {
-    color: #fff;
-}
-
-.input-box i {
+.top-menu-item{
     position: absolute;
-    right: 20px;
-    top: 50%;
-    transform: translateY(-50%);
-    font-size: 20px;
+    width: 200px;
+    top: 100px;
+    display: none;
+    opacity: 0;
+    transition: all 0.5s ease;
+    background-color: #fff;
+    height: auto!important;
+    padding: 6px;
+    border: 1px solid #dddd;
 }
-.wrapper .remember-forgot {
+.top-menu-items ul li:hover .top-menu-item{
+    display: block;
+    top: 60px;
+    opacity: 1;
+    background-color:rgb(215, 229, 236);
+}
+.top-menu-item li{
+    line-height: 30px;
     display: flex;
-    justify-content:  space-between;
-    font-size: 14.5px;
-    margin: -15px 0 15px;
-}
-.remember-forgot label input {
-    accent-color: #fff;
-    margin-right: 3px;
-}
+    justify-content: left!important;
 
-.remember-forgot a {
-    color: #fff;
-    text-decoration: underline;
 }
-
-.wrapper .btn {
-    width: 100%;
-    height: 45px;
-    background: #fff;
-    border: none;
-    outline: none;
-    border-radius: 40px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
-    cursor: pointer;
-    font-size: 16px;
+.top-menu-item li a{
+    font-size: 15px;
+    text-align: left;
+    text-transform: capitalize;
     color: #333;
-    font-weight: 600;
+    font-family: var(--main-text-font);
 }
 
-.wrapper .register-link {
-    font-size: 14.5px;
-    text-align: center;
-    margin: 20px 0 15px;
+/* top-menu-icons */
+.top-menu-icons{
+    flex: 1;
+}
+.top-menu-icons ul{
+    display: flex;
+    height: 100%;
+}
+.top-menu-icons ul li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 12px;
+}
+.top-menu-icons ul li{
+    position: relative;
+}
+.top-menu-icons ul li::before{
+    position: absolute;
+    content: "";
+    display: block;
+    height: 15px;
+    width: 1px;
+    background-color: #333;
+    right: 0;
+}
+.top-menu-icons ul li:last-child::before{
+    display: none;
+}
+.top-menu-icons ul li:first-child input{
+    width: 150px;
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid #333;
+    padding: 0 0 4px 6px;
+}
+.top-menu-icons ul li:first-child i{
+    position: absolute;
+    font-size: 12px;
+    right: 12px;
+}
+.top-menu-icons ul i{
+    cursor: pointer;
 }
 
-.register-link p a {
-    color: #fff;
-    text-decoration: none;
-    font-weight: 600;
-}
+
+

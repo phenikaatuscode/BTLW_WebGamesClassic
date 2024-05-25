@@ -5,30 +5,307 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="/js/script.js"></script>
+    <link rel="stylesheet" href="/BTLW_WebGamesClassic/fontawesome-free-6.4.2-web/css/all.min.css">
 </head>
 <body>
-    <div class="wrapper">
-        <form action="">   
-            <h1>Login </h1>
-            <div class="input-box">
-                <input type="text" placeholder="Tên Đăng Nhập" required>
-                <i class='bx bxs-user' ></i>
+    <!------------------------------------------ HEADER--------------------------------------- -->
+    <section class="top">
+        <div class="container">
+            <div class="row">
+                <div class="top-logo">
+                    <img src="/img/lg.png" alt="">
+                </div>
+                <div class="top-menu-items">
+                    <ul>
+                        <li><a href="#">Platform
+                            <ul class="top-menu-item">
+                                <li>
+                                    <a href="#"><i class="fa-solid fa-globe"></i> Play in browser</a>
+                                </li>
+                                <li>
+                                    <a href=""><i class="fa-brands fa-windows"></i> Window</a>
+                                </li>
+                                <li>
+                                    <a href=""><i class="fa-brands fa-apple"></i> MacOS</a>
+                                </li>
+                                <li>
+                                    <a href=""><i class="fa-brands fa-linux"></i> Linux</a>
+                                </li>
+                                <li>
+                                    <a href=""><i class="fa-brands fa-apple"></i> iOS</a>
+                                </li>
+                            </ul>
+                        </a></li>
+                        <li>Price
+                            <ul class="top-menu-item">
+                                <li>
+                                    <a href="#"><i class="fa-solid fa-star"></i> Free</a>
+                                </li>
+                                <li>
+                                    <a href=""><i class="fa-solid fa-star"></i> On Sale</a>
+                                </li>
+                                <li>
+                                    <a href=""><i class="fa-solid fa-cart-shopping"></i> Paid</a>
+                                </li>
+                                <li>
+                                    <a href=""><i class="fa-solid fa-cart-shopping"></i> $5 or less</a>
+                                </li>
+                                <li>
+                                    <a href=""><i class="fa-solid fa-cart-shopping"></i> $15 or less</a>
+                                </li>
+                            </ul>
+                            
+                        </li>
+                        <li>When
+                            <ul class="top-menu-item">
+                                <li>
+                                    <a href=""><i class="fa-solid fa-stopwatch"></i> Last Day</a>
+                                </li>
+                                <li>
+                                    <a href=""><i class="fa-solid fa-stopwatch"></i> Last 7 Days</a>
+                                </li>
+                                <li>
+                                    <a href=""><i class="fa-solid fa-stopwatch"></i> Last 30 Days</a>
+                                </li>
+                            </ul>
+                        </li>
+                        
+                        <li>Genre
+                            <ul class="top-menu-item">
+                                <li>
+                                    <a href=""><i class="fa-solid fa-tag"></i> Action</a>
+                                </li>
+                                <li>
+                                    <a href=""><i class="fa-solid fa-tag"></i> Adventure</a>
+                                </li>
+                                <li>
+                                    <a href=""><i class="fa-solid fa-tag"></i> Card Game</a>
+                                </li>
+                                <li>
+                                    <a href=""><i class="fa-solid fa-tag"></i> Educational</a>
+                                </li>
+                                <li>
+                                    <a href=""><i class="fa-solid fa-tag"></i> Fighting</a>
+                                </li>
+                                <li>
+                                    <a href=""><i class="fa-solid fa-tag"></i> Interactive Fiction</a>
+                                </li>
+                                <li>
+                                    <a href=""><i class="fa-solid fa-tag"></i> Platformer</a>
+                                </li>
+                                <li>
+                                    <a href=""><i class="fa-solid fa-tag"></i> Puzzle</a>
+                                </li>
+                                <li>
+                                    <a href=""><i class="fa-solid fa-tag"></i>Racing</a>
+                                </li>
+                                <li>
+                                    <a href=""><i class="fa-solid fa-tag"></i>Rhythm</a>
+                                </li>
+                                <li>
+                                    <a href=""><i class="fa-solid fa-tag"></i> Role Playing</a>
+                                </li>
+                                <li>
+                                    <a href=""><i class="fa-solid fa-tag"></i> Shooter</a>
+                                </li>
+                                <li>
+                                    <a href=""><i class="fa-solid fa-tag"></i> Simulation</a>
+                                </li>
+                                <li>
+                                    <a href=""><i class="fa-solid fa-tag"></i> Sports</a>
+                                </li>
+                                <li>
+                                    <a href=""><i class="fa-solid fa-tag"></i> Strategy</a>
+                                </li>
+                                <li>
+                                    <a href=""><i class="fa-solid fa-tag"></i> Survival</a>
+                                </li>
+                                <li>
+                                    <a href=""><i class="fa-solid fa-tag"></i> Visual Novel</a>
+                                </li>
+                                <li>
+                                    <a href=""><i class="fa-solid fa-tag"></i> Other</a>
+                                </li>
+
+                            </ul>
+                        </li>
+                        <li>Input methods
+                            <ul class="top-menu-item">
+                                <li>
+                                    <a href=""><i class="fa-solid fa-gamepad"></i> KeyBoard</a>
+                                </li>
+                                <li>
+                                    <a href=""><i class="fa-solid fa-gamepad"></i> Mouse</a>
+                                </li>
+                                <li>
+                                    <a href=""><i class="fa-solid fa-gamepad"></i> Xbox controller</a>
+                                </li>
+                                <li>
+                                    <a href=""><i class="fa-solid fa-gamepad"></i> GamePad(any)</a>
+                                </li>
+                                <li>
+                                    <a href=""><i class="fa-solid fa-gamepad"></i> JoyStick</a>
+                                </li>
+                                <li>
+                                    <a href=""><i class="fa-solid fa-gamepad"></i> Touchscreen</a>
+                                </li>
+                                <li>
+                                    <a href=""><i class="fa-solid fa-gamepad"></i> Voice control</a>
+                                </li>
+                                <li>
+                                    <a href=""><i class="fa-solid fa-gamepad"></i> Oculus Rift</a>
+                                </li>
+                                <li>
+                                    <a href=""><i class="fa-solid fa-gamepad"></i> Leap Motion</a>
+                                </li>
+                                <li>
+                                    <a href=""><i class="fa-solid fa-gamepad"></i> Wiimoye</a>
+                                </li>
+                                <li>
+                                    <a href=""><i class="fa-solid fa-gamepad"></i> Kinect</a>
+                                </li>
+                                <li>
+                                    <a href=""><i class="fa-solid fa-gamepad"></i> NeuroSky Mindwave</a>
+                                </li>
+                                <li>
+                                    <a href=""><i class="fa-solid fa-gamepad"></i> Accelerometer</a>
+                                </li>
+                                <li>
+                                    <a href=""><i class="fa-solid fa-gamepad"></i> OSVR</a>
+                                </li>
+                                <li>
+                                    <a href=""><i class="fa-solid fa-gamepad"></i> Smartphone</a>
+                                </li>
+                                <li>
+                                    <a href=""><i class="fa-solid fa-gamepad"></i> Dance pad</a>
+                                </li>
+                                <li>
+                                    <a href=""><i class="fa-solid fa-gamepad"></i> HTC Vive</a>
+                                </li>
+                                <li>
+                                    <a href=""><i class="fa-solid fa-gamepad"></i> Google Daydream VR</a>
+                                </li>
+                                <li>
+                                    <a href=""><i class="fa-solid fa-gamepad"></i> Google Cardboard VR</a>
+                                </li>
+                                <li>
+                                    <a href=""><i class="fa-solid fa-gamepad"></i> MIDI controller</a>
+                                </li>
+                                
+                            </ul>
+                        </li>
+                        <li>Average session length
+                            <ul class="top-menu-item">
+                                <li>
+                                    <a href=""><i class="fa-solid fa-stopwatch"></i> A few seconds</a>
+                                </li>
+                                <li>
+                                    <a href=""><i class="fa-solid fa-stopwatch"></i> A few minutes</a> 
+                                </li>
+                                <li> <a href=""><i class="fa-solid fa-stopwatch"></i> About a haft-hour</a>
+                                </li>
+                                <li> <a href=""><i class="fa-solid fa-stopwatch"></i> About an hour</a>
+                                </li>
+                                <li> <a href=""><i class="fa-solid fa-stopwatch"></i></a> A few hours</li>
+
+                                <li> <a href=""><i class="fa-solid fa-stopwatch"></i> Days or more</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>Accessibility features
+                            <ul class="top-menu-item">
+                                <li>
+                                    <a href=""><i class="fa-solid fa-hand-spock"></i> Color-blind friendly</a>
+                                </li>
+                                <li>
+                                    <a href=""><i class="fa-solid fa-hand-spock"></i> Subtitles</a>
+                                </li>
+                                <li>
+                                    <a href=""><i class="fa-solid fa-hand-spock"></i> Configurable controls</a>
+                                </li>
+                                <li>
+                                    <a href=""><i class="fa-solid fa-hand-spock"></i> High-contrast</a>
+                                </li>
+                                <li>
+                                    <a href=""><i class="fa-solid fa-hand-spock"></i> Interactive tutorial</a>
+                                </li>
+                                <li>
+                                    <a href=""><i class="fa-solid fa-hand-spock"></i> One button</a>
+                                </li>
+                                <li>
+                                    <a href=""><i class="fa-solid fa-hand-spock"></i> Bilnd friendly</a>
+                                </li>
+                                <li>
+                                    <a href=""><i class="fa-solid fa-hand-spock"></i> Textless</a>
+                                </li>
+
+                            </ul>
+                        </li>
+                        <li>Multiplayer features
+                            <ul class="top-menu-item">
+                                <li>
+                                    <a href=""><i class="fa-solid fa-earth-americas"></i> Local multiplayer</a>
+                                </li>
+                                <li>
+                                    <a href=""><i class="fa-solid fa-earth-americas"></i> Server-based networked multiplayer</a>
+                                </li>
+                                <li>
+                                    <a href=""><i class="fa-solid fa-earth-americas"></i> Ad-hoc networked multiplayer</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>Type
+                            <ul class="top-menu-item">
+                                <li>
+                                    <a href=""><i class="fa-solid fa-filter"></i> HTML5</a>
+                                </li>
+                                <li>
+                                    <a href=""><i class="fa-solid fa-filter"></i> Downloadable</a>
+                                </li>
+                                <li>
+                                    <a href=""><i class="fa-solid fa-filter"></i> Flash</a>
+                                </li>
+                                
+                            </ul>
+                        </li>
+                        <li>Misc
+                            <ul class="top-menu-item">
+                                <li>
+                                    <a href=""><i class="fa-solid fa-filter"></i> With steam keys</a>
+                                </li>
+                                <li>
+                                    <a href=""><i class="fa-solid fa-filter"></i> In game jams</a>
+                                </li>
+                                <li>
+                                    <a href=""><i class="fa-solid fa-filter"></i> Not in game jams</a>
+                                </li>
+                                <li>
+                                    <a href=""><i class="fa-solid fa-filter"></i> With demos</a>
+                                </li>
+                                <li>
+                                    <a href=""><i class="fa-solid fa-filter"></i> Featured</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="top-menu-icons">
+                    <ul>
+                        <li>
+                            <input type="text" placeholder="Tìm kiếm">
+                            <i class="fas fa-search"></i>
+                        </li>
+                        <li>
+                            <i class="fas fa-user"></i>
+                        </li>
+                    </ul>
+                </div>
             </div>
-            <div class="input-box">
-                <input type="password" placeholder="Mật Khẩu" required>
-                <i class='bx bxs-lock-alt' ></i>
-            </div>
-            <div class="remember-forgot">
-                <label><input type="checkbox">Lưu đăng nhập</label>
-                <a href="#"> Quên mật khẩu</a>
-            </div>
-            <button type="submit" class="btn"> Đăng nhập</button>
-            <div class="register-link">
-                <p>Không có tài khoản?  <a 
-                    href="">Đăng ký</a></p>  
-            </div>
-        </form>
-    </div>
+        </div>
+    </section>
+
+    <!-- -----------------------------------------FOOTER------------------------------- -->
+    
 </body>
 </html>
