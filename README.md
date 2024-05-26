@@ -16,10 +16,9 @@ Chạy local host sử dụng live server cho file index.html
 
 ## Nhóm sinh viên thực hiện:
 
-Trần Anh Tú - 21011641
-Nguyễn Thị Ngọc Ánh - 
-Nguyễn Anh Tú - 
-
+* Trần Anh Tú - 21011641
+* Nguyễn Thị Ngọc Ánh - 21010661
+* Nguyễn Anh Tú -
 
 ## Giấy phép
 
