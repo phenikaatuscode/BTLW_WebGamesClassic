@@ -2,7 +2,7 @@
 
 ## **Đề Tài: Xây dựng thư viện dành cho game trên nền tảng web.**
 
-Dự án này tập trung vào việc xây dựng một thư viện để hỗ trợ phát triển game trên nền tảng web. Thư viện này cung cấp các công cụ và tiện ích giúp việc phát triển game trở nên dễ dàng hơn.
+Dự án này tập trung vào việc xây dựng một thư viện để hỗ trợ phát triển game trên nền tảng web. Thư viện này cung cấp các thông tin về các trò chơi đã được public.
 
 ## Cài đặt
 
