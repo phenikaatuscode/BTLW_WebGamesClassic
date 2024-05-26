@@ -149,6 +149,110 @@ a{
 .top-menu-icons ul i{
     cursor: pointer;
 }
+/* main */
+.main{
+  height:1000px;
+}
+  /* footer */
+  .footer{
+    padding: 100px 0 0;
+    border-top: 2px solid black;
+  }
+  .footer-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(140, 224, 247);
+  }
+  .footer-container p{
+    font-weight: bold;
+    font-size: 18px;
+    font-family: var(--main-text-font);
+  }
+  .app-google{
+    margin: 25px 0;
+  }
+  .app-google img{
+    width: 150px;
+    cursor: p;
+  }
+  .input-email{
+    position: relative;
+    width: 300px;
+    margin: auto;
+    margin-top: 30px;
+  }
+  .input-email input{
+    width: 100%;
+    border: none;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    border: 1px solid black;
+    text-align: center;
+  }
+  .input-email i{
+    position: absolute;
+    right: 12px;
+    bottom: 6px;
+    cursor: pointer;
+    padding-bottom: 5px;
+  }
 
+  .footer-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0;
+  }
+  .footer-items li{
+    padding: 12px;
+    position: relative;
+    font-weight: bold;
+    font-family: var(--main-text-font);
+    font-size: 12px;
+    color: #333;
+  }
+  .footer-items li a{
+    color: #333;
+    font-weight: bold;
+    font-family: var(--main-text-font);
+/*     
+    font-size: 15px; */
+  }
+  .footer-items li::after{
+    position: absolute;
+    content: "";
+    width: 1px;
+    height: 50%;
+    background-color: #ccc;
+    right: 0;
+  }
+  .footer-items li:last-child::after{
+    display: none;
 
-
+  }
+  .footer-items li:last-child i{
+    font-size: 12px;
+    margin-right: 12px;
+    color: #333;
+  }
+  .footer-items li:last-child i:hover{
+    color: black;
+  }
+  .footer-items img{
+    width: 100px;
+  }
+  .footer-text{
+    text-align: center;
+    font-size: 12px;
+    font-family: var(--main-text-font);
+  }
+  .footer-bottom{
+    padding: 10px 0;
+    font-size:12px ;
+    font-family:var(--main-text-font) ;
+    width:100% ;
+    text-align: center;
+    margin: 30px;
+  }
