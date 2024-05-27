@@ -41,7 +41,11 @@ a{
 .top-logo{
     flex:0.5;
 }
-
+.top-logo img{
+  width: 112px;
+  height: 100px;
+  padding-top: 16px;
+}
 .top-menu-items{
     flex: 3.5;
 }
@@ -169,13 +173,7 @@ a{
     font-weight: bold;
     font-size: 18px;
     font-family: var(--main-text-font);
-  }
-  .app-google{
-    margin: 25px 0;
-  }
-  .app-google img{
-    width: 150px;
-    cursor: p;
+    padding-top: 35px;
   }
   .input-email{
     position: relative;
@@ -242,11 +240,6 @@ a{
   }
   .footer-items img{
     width: 100px;
-  }
-  .footer-text{
-    text-align: center;
-    font-size: 12px;
-    font-family: var(--main-text-font);
   }
   .footer-bottom{
     padding: 10px 0;
