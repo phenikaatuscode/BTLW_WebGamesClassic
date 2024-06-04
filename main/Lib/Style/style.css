@@ -55,7 +55,7 @@ a{
 }
 .top-menu-items > ul > li{
     font-family: var(--main-text-font);
-    padding: 0 12px;
+    padding: 0 13px;
     height: 100%;
     display: flex;
     justify-content: center;
@@ -88,6 +88,7 @@ a{
     height: auto!important;
     padding: 6px;
     border: 1px solid #dddd;
+    margin-top: 20px;
 }
 .top-menu-items ul li:hover .top-menu-item{
     display: block;
@@ -155,8 +156,20 @@ a{
 }
 /* main */
 .main{
-  height:1000px;
+  padding:150px 0 0 0;
 }
+.grid-container {
+  display: grid;
+  gap: 50px 100px;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+
+.grid-item {
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+}
+
   /* footer */
   .footer{
     padding: 100px 0 0;
@@ -249,3 +262,4 @@ a{
     text-align: center;
     margin: 30px;
   }
+  
