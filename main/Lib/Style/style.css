@@ -6,6 +6,7 @@
     padding: 0;
     box-sizing: border-box;
     outline: none;
+    /* max-width: 1236px; */
 }
 li{
     list-style: none;
@@ -89,7 +90,7 @@ a{
     display: block;
     top: 60px;
     opacity: 1;
-    background-color:rgb(215, 229, 236);
+    background-color:white;
 }
 .top-menu-item li{
     line-height: 30px;
@@ -104,7 +105,6 @@ a{
     color: #333;
     font-family: var(--main-text-font);
 }
-
 /* top-menu-icons */
 .top-menu-icons{
     flex: 1;
@@ -122,18 +122,7 @@ a{
 .top-menu-icons ul li{
     position: relative;
 }
-.top-menu-icons ul li::before{
-    position: absolute;
-    content: "";
-    display: block;
-    height: 15px;
-    width: 1px;
-    background-color: #333;
-    right: 0;
-}
-.top-menu-icons ul li:last-child::before{
-    display: none;
-}
+
 .top-menu-icons ul li:first-child input{
     width: 150px;
     border: none;
@@ -145,9 +134,44 @@ a{
     position: absolute;
     font-size: 12px;
     right: 12px;
+    color: #333;
 }
 .top-menu-icons ul i{
     cursor: pointer;
+    color: #333;
+}
+.list-user {
+  position: absolute;
+  width: auto;
+  top: 100px;
+  opacity: 0;
+  transition: all 0.5s ease;
+  background-color: #fff;
+  height: auto!important;
+  border: 1px solid #dddd;
+  margin-top: 20px;
+  display: none;
+}
+
+.top-menu-icons ul li:hover .list-user {
+  top: 60px;
+  opacity: 1;
+  background-color: white;
+  display: block;
+}
+.list-user li{
+  line-height: 35px;
+  display: flex;
+  justify-content: left!important;
+
+}
+.list-user li a{
+  font-size: 15px;
+  text-align: left;
+  text-transform: capitalize;
+  color: #333;
+  font-family: var(--main-text-font);
+  font-weight: bold;
 }
 /* main */
 .main{
