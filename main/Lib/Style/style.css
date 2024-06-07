@@ -151,7 +151,8 @@ a{
 }
 /* main */
 .main{
-  padding:150px 0 0 0;
+  padding:25px 0 0;
+  font-family: var(--main-text-font);
 }
 h1 {
   margin: 0;
@@ -170,13 +171,14 @@ h1 {
   border-bottom: 3px solid #2c3e50;
   padding-bottom: 10px;
   margin-bottom: 20px;
-  font-size: 30px;
+  font-size: 20px;
 }
 
 .grid-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 20px;
+  padding-bottom: 20px;
 }
 
 .game-item {
@@ -201,7 +203,7 @@ h1 {
 
 .game-item h3 {
   margin: 10px 0 5px 0;
-  font-size: 23px;
+  font-size: 20px;
   color: #2c3e50;
 }
 
@@ -212,7 +214,7 @@ h1 {
 
   /* footer */
   .footer{
-    padding: 100px 0 0;
+    padding: 50px 0 0;
     border-top: 2px solid black;
   }
   .footer-container{
