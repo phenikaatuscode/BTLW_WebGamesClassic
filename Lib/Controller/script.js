@@ -1,5 +1,9 @@
 document.addEventListener("DOMContentLoaded", function() {
     const gameSectionsContainer = document.getElementById('gameSectionsContainer');
+    if (!gameSectionsContainer) {
+        console.error('gameSectionsContainer element not found!');
+        return;
+    }
 
     // Create a game item with an image, title, and short description
     function createGameItem(game) {
@@ -102,9 +106,9 @@ document.addEventListener("DOMContentLoaded", function() {
 
     // Fetch and process XML data for each category
     const categories = {
-        latest: 'Lib/Model/latestCatagory.xml',
-        popular: 'Lib/Model/popularCatagory.xml',
-        retro: 'Lib/Model/retroCatagory.xml'
+        latest: '/Lib/Model/latestCatagory.xml',
+        popular: '/Lib/Model/popularCatagory.xml',
+        retro: '/Lib/Model/retroCatagory.xml'
     };
 
     Object.keys(categories).forEach(category => {

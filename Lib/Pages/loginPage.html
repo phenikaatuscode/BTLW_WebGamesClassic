@@ -4,29 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="../Style/loginPage.css">
+    <link rel="stylesheet" href="/Lib/Style/loginPage.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
     <div class="wrapper">
         <form action="">   
-            <h1>Login </h1>
+            <h1>Login</h1>
             <div class="input-box">
-                <input type="text" placeholder="Tên Đăng Nhập" required>
-                <i class='bx bxs-user' ></i>
+                <input type="text" placeholder="Username" required>
+                <i class='bx bxs-user'></i>
             </div>
             <div class="input-box">
-                <input type="password" placeholder="Mật Khẩu" required>
-                <i class='bx bxs-lock-alt' ></i>
+                <input type="password" placeholder="Password" required>
+                <i class='bx bxs-lock-alt'></i>
             </div>
             <div class="remember-forgot">
-                <label><input type="checkbox">Lưu đăng nhập</label>
-                <a href="/BTLW_WebGamesClassic/main/Lib/Pages/forgotPass.html"> Quên mật khẩu</a>
+                <label><input type="checkbox">Remember me</label>
+                <a href="/Lib/Pages/forgotPass.html">Forgot Password</a>
             </div>
-            <button type="submit" class="btn"> <a href="/BTLW_WebGamesClassic/main/Lib/Pages/signinPage.html"><p style="color: #333;">Đăng nhập</p></a></button>
+            <button type="submit" class="btn">
+                <a href="/Lib/Pages/loginPage.html">
+                    <p style="color: #333;">Login</p>
+                </a>
+            </button>
             <div class="register-link">
-                <p>Không có tài khoản?  <a 
-                    href="/BTLW_WebGamesClassic/main/Lib/Pages/signinPage.html">Đăng ký</a></p>  
+                <p>Don't have an account? <a href="/Lib/Pages/signinPage.html">Sign Up</a></p>  
             </div>
         </form>
     </div>

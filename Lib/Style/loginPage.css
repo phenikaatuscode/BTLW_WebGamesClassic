@@ -11,7 +11,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: url(/main/Assets/mario\ pixel\ art\ gift.jpg) no-repeat;
+    background: url(/Assets/mariopixelartgift.jpg) no-repeat;
     
     background-size: cover;
     background-position: center;
