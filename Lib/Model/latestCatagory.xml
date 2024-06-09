@@ -11,8 +11,8 @@
             <author>Unknown</author>
             <publisher>Unknown</publisher>
             <price>260.000₫</price>
-            <discounted_price>234.000₫</discounted_price>
             <image>https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1978150/header.jpg?t=1717877635</image>
+            <video>https://www.youtube.com/embed/N7bJo2jiBNw?si=Tul95z4tb-0uzUgs</video>
         </game>
         <game id="2">
             <title>POOOOL</title>
@@ -23,11 +23,11 @@
             <author>Unknown</author>
             <publisher>Unknown</publisher>
             <price>73.500₫</price>
-            <discounted_price>59.000₫</discounted_price>
             <image>https://assets-prd.ignimgs.com/2024/06/08/untitled-1-1717875909194.png</image>
+            <video>https://www.youtube.com/embed/nizbx9vYDmU?si=filoAJJCisMfdMQA</video>
         </game>
         <game id="3">
-            <title>Tale of Rainbow 7: Prologue</title>
+            <title>Alice in the Nightmare Land</title>
             <short_description>Adventure, Singleplayer, Top-Down, Pixel Graphics</short_description>
             <full_description>A top-down adventure game with beautiful pixel graphics and engaging story.</full_description>
             <release_date>Unknown</release_date>
@@ -35,7 +35,8 @@
             <author>Unknown</author>
             <publisher>Unknown</publisher>
             <price>Free</price>
-            <image>https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2961980/header.jpg?t=1717834270</image>
+            <image>https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2583430/header.jpg?t=1717923918</image>
+            <video>https://www.youtube.com/watch?v=7gOt902hGsU</video>
         </game>
         <game id="4">
             <title>The Big Catch: Tacklebox</title>
@@ -47,6 +48,7 @@
             <publisher>Unknown</publisher>
             <price>Free</price>
             <image>https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2985610/capsule_616x353.jpg?t=1717791447</image>
+            <video>https://www.youtube.com/watch?v=wRUs_FC9UdM</video>
         </game>
         <game id="5">
             <title>Megaloot: Prelude</title>
@@ -58,6 +60,7 @@
             <publisher>Unknown</publisher>
             <price>Free</price>
             <image>https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2973490/capsule_616x353.jpg?t=1717782889</image>
+            <video>https://www.youtube.com/watch?v=-az-0yChx3U</video>
         </game>
         <game id="6">
             <title>Empires of the Undergrowth</title>
@@ -68,8 +71,8 @@
             <author>Unknown</author>
             <publisher>Unknown</publisher>
             <price>399.000₫</price>
-            <discounted_price>259.500₫</discounted_price>
             <image>https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/463530/capsule_616x353.jpg?t=1717613316</image>
+            <video>https://www.youtube.com/watch?v=ELSOKmgDRvA</video>
         </game>
         <game id="7">
             <title>Nightmare Kart</title>
@@ -81,6 +84,7 @@
             <publisher>Unknown</publisher>
             <price>Free</price>
             <image>https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2930160/header.jpg?t=1715304542</image>
+            <video>https://www.youtube.com/watch?v=kH0_71lBW0c</video>
         </game>
         <game id="8">
             <title>Saloon Simulator: Prologue</title>
@@ -92,6 +96,7 @@
             <publisher>Unknown</publisher>
             <price>Free</price>
             <image>https://assets-prd.ignimgs.com/2023/05/30/saloon-1685488076724.jpg</image>
+            <video>https://www.youtube.com/watch?v=F4_SYSmETBo</video>
         </game>
         <game id="9">
             <title>Destiny 2: Legacy Collection (2024)</title>
@@ -102,8 +107,8 @@
             <author>Bungie</author>
             <publisher>Bungie</publisher>
             <price>1.165.000₫</price>
-            <discounted_price>407.500₫</discounted_price>
             <image>https://cdn1.epicgames.com/offer/428115def4ca4deea9d69c99c5a5a99e/DE_Bungie_Legacy_2024_S4_1200x1600_1200x1600-a97efee40b728e19c357942cecce04fb</image>
+            <video>https://www.youtube.com/watch?v=GfhsBlNvABE</video>
         </game>
         <game id="10">
             <title>Cats Hidden Around the World</title>
@@ -115,6 +120,7 @@
             <publisher>Unknown</publisher>
             <price>Unknown</price>
             <image>https://www.metacritic.com/a/img/catalog/provider/6/12/6-1-928086-52.jpg</image>
+            <video>https://www.youtube.com/watch?v=4G2Hgz-adac</video>
         </game>
         <game id="11">
             <title>Killer Klowns from Outer Space: The Game</title>
@@ -126,6 +132,7 @@
             <publisher>Unknown</publisher>
             <price>470.000₫</price>
             <image>https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1556100/header.jpg?t=1717519541</image>
+            <video>https://www.youtube.com/watch?v=iqlVMqvo0hg</video>
         </game>
         <game id="12">
             <title>Sandwalkers - Prologue</title>
@@ -137,6 +144,7 @@
             <publisher>Unknown</publisher>
             <price>Free</price>
             <image>https://cdn.akamai.steamstatic.com/steam/apps/2995230/header.jpg</image>
+            <video>https://www.youtube.com/watch?v=gjrYxpzNVXU</video>
         </game>
         <game id="13">
             <title>Guardians of the Sanctree: Early Birds</title>
@@ -148,6 +156,7 @@
             <publisher>Unknown</publisher>
             <price>Free</price>
             <image>https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2947890/header.jpg?t=1717774055</image>
+            <video>https://www.youtube.com/watch?v=yyVUQTmCnVo</video>
         </game>
         <game id="14">
             <title>PANICORE</title>
@@ -159,6 +168,7 @@
             <publisher>Unknown</publisher>
             <price>73.500₫</price>
             <image>https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2695940/ss_e15e38107b44a7a8ea13e75f83754ba9849ea089.1920x1080.jpg?t=1717725326</image>
+            <video>https://www.youtube.com/watch?v=0sYnMh96qpA</video>
         </game>
     </latest>
 </data>

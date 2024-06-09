@@ -18,9 +18,15 @@
         <h2>Game Information</h2>
         <div id="gameDetails">
             <h3>Game Title: <span id="gameTitle"></span></h3>
+            <iframe id="gameVideo" class="video" width="420" height="315" src="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <img id="gameImage" src="" alt="Game Image">
-            <p id="gameDescription"></p>
-            <!-- Add other game details here -->
+            <p id="gameShortDescription"></p>
+            <p><strong>Full Description:</strong> <span id="gameFullDescription"></span></p>
+            <p><strong>Release Date:</strong> <span id="releaseDate"></span></p>
+            <p><strong>Rating:</strong> <span id="rating"></span></p>
+            <p><strong>Author:</strong> <span id="author"></span></p>
+            <p><strong>Publisher:</strong> <span id="publisher"></span></p>
+            <p><strong>Price:</strong> <span id="price"></span></p>
         </div>
     </div>
     <div class="footer">
@@ -35,11 +41,34 @@
             if (gameData) {
                 document.getElementById('gameTitle').textContent = gameData.title;
                 document.getElementById('gameImage').src = gameData.image;
-                document.getElementById('gameDescription').textContent = gameData.shortDescription;
+                document.getElementById('gameShortDescription').textContent = gameData.shortDescription;
+                document.getElementById('gameFullDescription').textContent = gameData.fullDescription;
+                document.getElementById('releaseDate').textContent = gameData.release_date;
+                document.getElementById('rating').textContent = gameData.rating;
+                document.getElementById('author').textContent = gameData.author;
+                document.getElementById('publisher').textContent = gameData.publisher;
+                document.getElementById('price').textContent = gameData.price;
+                
+                const videoSrc = gameData.video;
+                const embedUrl = convertToEmbedUrl(videoSrc);
+                document.getElementById('gameVideo').src = embedUrl;
             } else {
                 console.error("No game data found in localStorage");
             }
         });
+
+        function convertToEmbedUrl(url) {
+            const urlObj = new URL(url);
+            if (urlObj.hostname === 'www.youtube.com' || urlObj.hostname === 'youtube.com') {
+                const videoId = urlObj.searchParams.get('v');
+                return `https://www.youtube.com/embed/${videoId}`;
+            } else if (urlObj.hostname === 'youtu.be') {
+                const videoId = urlObj.pathname.slice(1);
+                return `https://www.youtube.com/embed/${videoId}`;
+            } else {
+                return url;
+            }
+        }
     </script>
 </body>
 </html>

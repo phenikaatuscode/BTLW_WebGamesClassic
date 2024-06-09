@@ -4,9 +4,9 @@ document.addEventListener("DOMContentLoaded", function() {
     // Create a game item with an image, title, and short description
     function createGameItem(game) {
         const id = game.getAttribute('id');
-        const title = game.getElementsByTagName('title')[0].textContent;
-        const shortDescription = game.getElementsByTagName('short_description')[0].textContent;
-        const image = game.getElementsByTagName('image')[0].textContent;
+        const title = game.getElementsByTagName('title')[0]?.textContent || '';
+        const shortDescription = game.getElementsByTagName('short_description')[0]?.textContent || '';
+        const image = game.getElementsByTagName('image')[0]?.textContent || '';
 
         const gameItem = document.createElement('div');
         gameItem.className = 'game-item';
@@ -22,19 +22,24 @@ document.addEventListener("DOMContentLoaded", function() {
             const gameData = {
                 title: title,
                 shortDescription: shortDescription,
+                fullDescription: game.getElementsByTagName('full_description')[0]?.textContent || '',
+                release_date: game.getElementsByTagName('release_date')[0]?.textContent || '',
+                rating: game.getElementsByTagName('rating')[0]?.textContent || '',
+                author: game.getElementsByTagName('author')[0]?.textContent || '',
+                publisher: game.getElementsByTagName('publisher')[0]?.textContent || '',
+                price: game.getElementsByTagName('price')[0]?.textContent || '',
+                video: game.getElementsByTagName('video')[0]?.textContent || '',
                 image: image
             };
             localStorage.setItem('selectedGame', JSON.stringify(gameData));
 
-            // Use BroadcastChannel to send the message
+            // Use BroadcastChannel to send the message to the game item page
             const channel = new BroadcastChannel("gameItemChannel");
             channel.postMessage(gameData);
 
             // Redirect to the game item page
             window.location.href = 'Lib/Pages/gameItemPage.html';
         };
-
-
 
         return gameItem;
     }
@@ -50,9 +55,9 @@ document.addEventListener("DOMContentLoaded", function() {
         // Add the category description
         const categoryDescription = categoryElement.getElementsByTagName('description')[0];
         if (categoryDescription) {
-            const h3 = document.createElement('h3');
-            h3.textContent = categoryDescription.textContent;
-            section.appendChild(h3);
+            const p = document.createElement('p');
+            p.textContent = categoryDescription.textContent;
+            section.appendChild(p);
         }
 
         const gridContainer = document.createElement('div');
