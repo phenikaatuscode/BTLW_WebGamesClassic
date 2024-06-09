@@ -1,7 +1,7 @@
 
 body {
     /* margin-top: ; */
-    background: url(/BTLW_WebGamesClassic/main/Assets/wallpaperflare.com_wallpaper\ \(5\).jpg) no-repeat;
+    background: url(/main/Assets/wallpaperflare.com_wallpaper\ \(5\).jpg) no-repeat;
 }
 
 .face {
@@ -42,4 +42,7 @@ body {
 }
 .list-group-item.active {
     color: #4E5155 !important;
+}
+.text-light {
+    color: #babbbc !important;
 }
