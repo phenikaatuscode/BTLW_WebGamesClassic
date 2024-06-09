@@ -349,8 +349,8 @@ h1 {
 
 /* footer */
 .footer {
-  padding: 50px 0 0;
-  border-top: 2px solid black;
+  padding: 40px 0 0;
+  background-color: #ae2012;
 }
 
 .footer-container {
@@ -358,7 +358,7 @@ h1 {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-color: rgb(140, 224, 247);
+  background-color: #e9d8a6;
 }
 
 .footer-container p {
@@ -419,7 +419,7 @@ h1 {
   content: "";
   width: 1px;
   height: 50%;
-  background-color: #ccc;
+  background-color: #ae2012;
   right: 0;
 }
 
