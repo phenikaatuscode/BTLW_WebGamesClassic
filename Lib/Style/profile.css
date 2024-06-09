@@ -1,14 +1,38 @@
 
 body {
     /* margin-top: ; */
-    background: url(/BTLW_WebGamesClassic/main/Assets/wallpaperflare.com_wallpaper\ \(5\).jpg) no-repeat;
+    background: url(/Assets/mario\ pixel\ art\ gift.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    
 }
 
 .face {
     width : 80px !important;
     height: auto;
 }
-
+.card.box {
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    color: #fff;
+    border-radius: 10px;
+    padding: 30px 40px;
+}
+.list-group.list-group-flush.account-settings-links {
+     border-radius: 10px;
+    padding-top: 20px;
+}
+.list-group.list-group-flush.account-settings-links a{
+    padding: 20px;
+}
+.card-body .btn {
+    color: #fff;
+}
+.btn.btn-default.md-btn-flat {
+    color: black;
+}
 .btn-default {
     border-color: #e4e7e9 !important;
     background  : #ebf0f2 !important;
