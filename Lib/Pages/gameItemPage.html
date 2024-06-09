@@ -8,14 +8,14 @@
 </head>
 <body>
     <div class="header">
-        <h1 id ="title"></h1>
+        <h1 id="title"></h1>
         <nav>
             <a href="/index.html">Dashboard</a>
         </nav>
     </div>
     <div class="content">
         <div id="gameDetails">
-            <h3> <span id="gameTitle"></span></h3>
+            <h3><span id="gameTitle"></span></h3>
             <iframe id="gameVideo" class="video" width="420" height="315" src="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <iframe id="playGame" src="" width="600" height="450" frameborder="no" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" scrolling="no"></iframe>
             <img id="gameImage" src="" alt="Game Image">
@@ -28,65 +28,9 @@
         </div>
     </div>
     <div class="footer">
-        <p>&copy; 2024 : The Game Libary</p>
+        <p>&copy; 2024 : The Game Library</p>
     </div>
 
-    <script>
-        document.addEventListener("DOMContentLoaded", () => {
-            const gameData = JSON.parse(localStorage.getItem('selectedGame'));
-
-            if (gameData) {
-                document.getElementById('gameTitle').textContent = gameData.title;
-                document.getElementById('gameImage').src = gameData.image;
-                document.getElementById('gameFullDescription').textContent = gameData.fullDescription;
-                document.getElementById('releaseDate').textContent = gameData.release_date;
-                document.getElementById('rating').textContent = gameData.rating;
-                document.getElementById('author').textContent = gameData.author;
-                document.getElementById('publisher').textContent = gameData.publisher;
-                document.getElementById('price').textContent = gameData.price;
-                document.getElementById('title').textContent = gameData.title;
-
-                try {
-                    document.body.style.backgroundImage = `url(${gameData.image})`;
-                } catch (error) {
-                    document.body.style.backgroundImage = none;
-                }
-                
-                const videoSrc = gameData.video;
-                // Check if video source or play source is available
-                if (videoSrc != ''){
-        
-                    document.getElementById('playGame').style.display = 'none';
-                    const embedUrl = convertToEmbedUrl(videoSrc);
-                    document.getElementById('gameVideo').src = embedUrl;
-                }
-                else if (gameData.play != '')
-                {
-                    document.getElementById('gameVideo').style.display = 'none';
-                    document.getElementById('playGame').src = gameData.play;
-                }
-                else {
-                    document.getElementById('gameVideo').style.display = 'none';
-                    document.getElementById('playGame').style.display = 'none';
-                }
-            } else {
-                console.error("No game data found in localStorage");
-            }
-        });
-
-
-        function convertToEmbedUrl(url) {
-            const urlObj = new URL(url);
-            if (urlObj.hostname === 'www.youtube.com' || urlObj.hostname === 'youtube.com') {
-                const videoId = urlObj.searchParams.get('v');
-                return `https://www.youtube.com/embed/${videoId}`;
-            } else if (urlObj.hostname === 'youtu.be') {
-                const videoId = urlObj.pathname.slice(1);
-                return `https://www.youtube.com/embed/${videoId}`;
-            } else {
-                return url;
-            }
-        }
-    </script>
+    <script src="/Lib/Controller/gameDetails.js"></script>
 </body>
 </html>
