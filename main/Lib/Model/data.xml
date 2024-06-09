@@ -1,67 +1,282 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data>
     <latest>
-        <description> Games that just release or will be soon ...  </description>
+        <description>Games that just released or will be soon...</description>
         <game id="1">
-            <title>Game 1</title>
-            <description>Description of game 1</description>
-            <image>/main/Assets/Games/game1.png</image>
+            <title>Kamaeru: A Frog Refuge</title>
+            <description>Relaxing, Farming Sim, Cozy, Casual</description>
+            <price>260.000₫</price>
+            <discounted_price>234.000₫</discounted_price>
+            <image>https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1978150/header.jpg?t=1717877635</image>
         </game>
         <game id="2">
-            <title>Game 2</title>
-            <description>Description of game 2</description>
-            <image>/main/Assets/Games/game2.png</image>
+            <title>POOOOL</title>
+            <description>Puzzle, Casual, Physics, Arcade</description>
+            <price>73.500₫</price>
+            <discounted_price>59.000₫</discounted_price>
+            <image>https://assets-prd.ignimgs.com/2024/06/08/untitled-1-1717875909194.png</image>
         </game>
         <game id="3">
-            <title>Game 3</title>
-            <description>Description of game 3</description>
-            <image>/main/Assets/Games/game3.png</image>
+            <title>Tale of Rainbow 7: Prologue</title>
+            <description>Adventure, Singleplayer, Top-Down, Pixel Graphics</description>
+            <price>Free</price>
+            <image>https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2961980/header.jpg?t=1717834270</image>
         </game>
         <game id="4">
-            <title>Game 4</title>
-            <description>Description of game 4</description>
-            <image>/main/Assets/Games/game4.png</image>
+            <title>The Big Catch: Tacklebox</title>
+            <description>Action, Adventure, Action-Adventure, Platformer</description>
+            <price>Free</price>
+            <image>https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2985610/capsule_616x353.jpg?t=1717791447</image>
         </game>
         <game id="5">
-            <title>Game 5</title>
-            <description>Description of game 5</description>
-            <image>/main/Assets/Games/game5.png</image>
+            <title>Megaloot: Prelude</title>
+            <description>Strategy, RPG, Casual, Singleplayer</description>
+            <price>Free</price>
+            <image>https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2973490/capsule_616x353.jpg?t=1717782889</image>
         </game>
         <game id="6">
-            <title>Game 6</title>
-            <description>Description of game 6</description>
-            <image>/main/Assets/Games/game6.png</image>
+            <title>Empires of the Undergrowth</title>
+            <description>Strategy, Simulation, Base Building, City Builder</description>
+            <price>399.000₫</price>
+            <discounted_price>259.500₫</discounted_price>
+            <image>https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/463530/capsule_616x353.jpg?t=1717613316</image>
         </game>
         <game id="7">
-            <title>Game 7</title>
-            <description>Description of game 7</description>
-            <image>/main/Assets/Games/game7.png</image>
+            <title>Nightmare Kart</title>
+            <description>Racing, Vehicular Combat, Souls-like, Gothic</description>
+            <price>Free</price>
+            <image>https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2930160/header.jpg?t=1715304542</image>
         </game>
         <game id="8">
-            <title>Game 8</title>
-            <description>Description of game 8</description>
-            <image>/main/Assets/Games/game8.png</image>
+            <title>Saloon Simulator: Prologue</title>
+            <description>Immersive Sim, Crafting, Cooking, Farming Sim</description>
+            <price>Free</price>
+            <image>https://assets-prd.ignimgs.com/2023/05/30/saloon-1685488076724.jpg</image>
+        </game>
+        <game id="9">
+            <title>Destiny 2: Legacy Collection (2024)</title>
+            <description>Action, Adventure, Free to Play</description>
+            <price>1.165.000₫</price>
+            <discounted_price>407.500₫</discounted_price>
+            <image>https://cdn1.epicgames.com/offer/428115def4ca4deea9d69c99c5a5a99e/DE_Bungie_Legacy_2024_S4_1200x1600_1200x1600-a97efee40b728e19c357942cecce04fb</image>
+        </game>
+        <game id="10">
+            <title>Cats Hidden Around the World</title>
+            <description>Please spend some time playing the game.</description>
+            
+            <image>https://www.metacritic.com/a/img/catalog/provider/6/12/6-1-928086-52.jpg</image>
+        </game>
+        <game id="11">
+            <title>Killer Klowns from Outer Space: The Game</title>
+            <description>Horror, Multiplayer, Survival Horror, Violent</description>
+            <price>470.000₫</price>
+            <image>https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1556100/header.jpg?t=1717519541</image>
+        </game>
+        <game id="12">
+            <title>Sandwalkers - Prologue</title>
+            <description>Party-Based RPG, Turn-Based Strategy, Fantasy, Exploration</description>
+            <price>Free</price>
+            <image>https://cdn.akamai.steamstatic.com/steam/apps/2995230/header.jpg</image>
+        </game>
+        <game id="13">
+            <title>Guardians of the Sanctree: Early Birds</title>
+            <description>Strategy, Simulation, Adventure, Action</description>
+            <price>Free</price>
+            <image>https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2947890/header.jpg?t=1717774055</image>
+        </game>
+        <game id="14">
+            <title>PANICORE</title>
+            <description>Horror, Online Co-Op, Psychological Horror, Multiplayer</description>
+            <price>73.500₫</price>
+            <image>https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2695940/ss_e15e38107b44a7a8ea13e75f83754ba9849ea089.1920x1080.jpg?t=1717725326</image>
         </game>
     </latest>
     <popular>
+        <description>Games that everyone is talking about...</description>
         <game id="1">
-            <title>Popular Game 1</title>
-            <description>Description of popular game 1</description>
-            <image>/main/Assets/Games/popular1.png</image>
+            <title>The Legend of Zelda: Ocarina of Time</title>
+            <description>As a young boy, Link is tricked by Ganondorf, the King of the Gerudo Thieves.</description>
+            <metascore>99</metascore>
+            <release_date>NOV 23, 1998</release_date>
+            <rating>E</rating>
+            <image>https://i.ytimg.com/vi/uHGShqcAHlQ/maxresdefault.jpg</image>
         </game>
         <game id="2">
-            <title>Popular Game 2</title>
-            <description>Description of popular game 2</description>
-            <image>/main/Assets/Games/popular2.png</image>
+            <title>SoulCalibur</title>
+            <description>This is a tale of souls and swords, transcending the world and all its history, told for all eternity... The greatest weapons-based fighter returns, this time on Sega Dreamcast. Soul Calibur unleashes incredible graphics, fantastic fighters, and combos so amazing they'll make your head spin!</description>
+            <metascore>98</metascore>
+            <release_date>SEP 8, 1999</release_date>
+            <rating>T</rating>
+            <image>https://www.metacritic.com/a/img/catalog/provider/6/3/6-1-7379-13.jpg</image>
         </game>
-        <!-- Add more popular games here -->
+        <game id="3">
+            <title>Grand Theft Auto IV</title>
+            <description>[Metacritic's 2008 Xbox 360 Game of the Year; Also known as "GTA IV"] </description>
+            <metascore>98</metascore>
+            <release_date>APR 29, 2008</release_date>
+            <rating>M</rating>
+            <image>https://upload.wikimedia.org/wikipedia/vi/b/b7/Grand_Theft_Auto_IV_cover.jpg</image>
+        </game>
+        <game id="4">
+            <title>Super Mario Galaxy</title>
+            <description> 2007 Wii Game of the Year. The ultimate Nintendo hero is taking the ultimate step ... out into space. </description>
+            <metascore>97</metascore>
+            <release_date>NOV 12, 2007</release_date>
+            <rating>E</rating>
+            <image>https://upload.wikimedia.org/wikipedia/en/thumb/7/76/SuperMarioGalaxy.jpg/220px-SuperMarioGalaxy.jpg</image>
+        </game>
+        <game id="5">
+            <title>Super Mario Galaxy 2</title>
+            <description>Super Mario Galaxy 2, the sequel to the galaxy-hopping original game, includes the gravity-defying, physics-based exploration from the first game, but is loaded with entirely new galaxies and features to challenge players. </description>
+            <metascore>97</metascore>
+            <release_date>MAY 23, 2010</release_date>
+            <rating>E</rating>
+            <image>https://upload.wikimedia.org/wikipedia/en/thumb/6/65/Super_Mario_Galaxy_2_Box_Art.jpg/220px-Super_Mario_Galaxy_2_Box_Art.jpg</image>
+        </game>
+        <game id="6">
+            <title>The Legend of Zelda: Breath of the Wild</title>
+            <description>Ignore everything you know about The Legend of Zelda games. </description>
+            <metascore>97</metascore>
+            <release_date>MAR 3, 2017</release_date>
+            <rating>E10+</rating>
+            <image>https://upload.wikimedia.org/wikipedia/vi/thumb/c/c6/The_Legend_of_Zelda_Breath_of_the_Wild.jpg/220px-The_Legend_of_Zelda_Breath_of_the_Wild.jpg</image>
+        </game>
+        <game id="7">
+            <title>Tony Hawk's Pro Skater 3</title>
+            <description>Challenge up to four friends in online competitions over a LAN or the Internet. Take them on in both Trick Attack and Graffiti modes.</description>
+            <metascore>97</metascore>
+            <release_date>OCT 30, 2001</release_date>
+            <rating>T</rating>
+            <image>https://upload.wikimedia.org/wikipedia/en/2/2b/Tony_Hawk%27s_Pro_Skater_3_Coverart.jpg</image>
+        </game>
+        <game id="8">
+            <title>Perfect Dark (2000)</title>
+            <description>Step into the Dark... As Carrington Institute's most promising new Agent, Joanna Dark must uncover the truth behind the dataDyne Corporation's recent technological breakthroughs - breakthroughs which could have serious consequences for mankind.</description>
+            <metascore>97</metascore>
+            <release_date>MAY 22, 2000</release_date>
+            <rating>M</rating>
+            <image>https://www.gamespot.com/a/uploads/scale_medium/mig/0/2/1/1/2210211-198274_27981_front.jpg</image>
+        </game>
+        <game id="9">
+            <title>Red Dead Redemption 2</title>
+            <description>Developed by the creators of Grand Theft Auto V and Red Dead Redemption, Red Dead Redemption 2 is an epic tale of life in America’s unforgiving heartland. </description>
+            <metascore>97</metascore>
+            <release_date>OCT 26, 2018</release_date>
+            <rating>M</rating>
+            <image>https://upload.wikimedia.org/wikipedia/en/a/a7/Red_Dead_Redemption.jpg</image>
+        </game>
+        <game id="10">
+            <title>Grand Theft Auto V</title>
+            <description>The sprawling sun-soaked metropolis of Los Santos is chock full of self-help coaches, starlets and C-List celebrities, once on top of the media world, now struggling to stay relevant in time of economic malaise and lowest-common-denominator reality TV. </description>
+            <metascore>97</metascore>
+            <release_date>NOV 18, 2014</release_date>
+            <rating>M</rating>
+            <image>https://upload.wikimedia.org/wikipedia/en/a/a5/Grand_Theft_Auto_V.png</image>
+        </game>
+        <game id="11">
+            <title>Metroid Prime</title>
+            <description>Samus returns in a new mission to unravel the mystery behind the ruined walls scattered across Tallon IV. </description>
+            <metascore>97</metascore>
+            <release_date>NOV 17, 2002</release_date>
+            <rating>T</rating>
+            <image>https://upload.wikimedia.org/wikipedia/en/thumb/b/ba/MetroidPrimebox.jpg/220px-MetroidPrimebox.jpg</image>
+        </game>
+        <game id="12">
+            <title>Grand Theft Auto III</title>
+            <description>Players are put at the heart of their very own gangster movie, and let loose in a fully-realised 3 dimensional city with a cast of hundreds, 50 plus vehicles, ranging from sports cars to ice cream trucks and from boats to buses, 3 hours of music, including opera, reggae, house, drum and bass, pop and disco, and a huge array of street ready weapons.</description>
+            <metascore>97</metascore>
+            <release_date>OCT 22, 2001</release_date>
+            <rating>M</rating>
+            <image>https://upload.wikimedia.org/wikipedia/vi/thumb/b/be/GTA3boxcover.jpg/220px-GTA3boxcover.jpg</image>
+        </game>
+        <game id="13">
+            <title>Super Mario Odyssey</title>
+            <description>New Evolution of Mario Sandbox-Style Gameplay. Mario embarks on a new journey through unknown worlds, running and jumping through huge 3D worlds in the first sandbox-style Mario game since Super Mario 64 and Super Mario Sunshine. Set sail between expansive worlds aboard an airship, and perform all-new actions, such as throwing Mario's cap.</description>
+            <metascore>97</metascore>
+            <release_date>OCT 27, 2017</release_date>
+            <rating>E10+</rating>
+            <image>https://upload.wikimedia.org/wikipedia/en/thumb/8/8d/Super_Mario_Odyssey.jpg/220px-Super_Mario_Odyssey.jpg</image>
+        </game>
+        <game id="14">
+            <title>Halo: Combat Evolved</title>
+            <description>In a desperate attempt to keep a conquering alien race called the Covenant from finding Earth, you--a cybernetically enhanced soldier representing the peak of human military evolution--and a ragtag group of Marines flee to a distant uncharted system where you unexpectedly stumble across Halo, an enormous alien artifact in orbit between a gas giant and its moon. Your objective: Uncover Halo's horrible secret, and destroy mankind's nemesis - the Covenant.</description>
+            <metascore>97</metascore>
+            <release_date>NOV 15, 2001</release_date>
+            <rating>M</rating>
+            <image>https://upload.wikimedia.org/wikipedia/vi/thumb/b/b2/Halo_Combat_Evolved_DVD_cover.jpg/220px-Halo_Combat_Evolved_DVD_cover.jpg</image>
+        </game>
     </popular>
     <retro>
-        <!-- Add more retro games here -->
-        <game id ="1">
-            <title> Sonic Classic Heroes </title>
-            <description> </description>
-            <image> main\Assets\Images\Thumbnails\sonic_classic_Heroes.png </image>
+        <description> Retro classic games from your childhood. </description>
+        <game id="1">
+            <title>Super Mario World</title>
+            <description>Join Mario and Luigi on their adventure to save Princess Peach from Bowser's clutches in this classic platformer.</description>
+            <image>https://upload.wikimedia.org/wikipedia/en/thumb/3/32/Super_Mario_World_Coverart.png/220px-Super_Mario_World_Coverart.png</image>
         </game>
-    </retro>
+        <game id="2">
+            <title>The Legend of Zelda: A Link to the Past</title>
+            <description>Embark on a quest with Link to rescue Princess Zelda and defeat the evil sorcerer Agahnim in this classic action-adventure game.</description>
+            <image>https://upload.wikimedia.org/wikipedia/en/thumb/2/21/The_Legend_of_Zelda_A_Link_to_the_Past_SNES_Game_Cover.jpg/220px-The_Legend_of_Zelda_A_Link_to_the_Past_SNES_Game_Cover.jpg</image>
+        </game>
+        <game id="3">
+            <title>Super Metroid</title>
+            <description>Help Samus Aran explore the planet Zebes, defeat the Space Pirates, and stop the evil Mother Brain in this classic action-adventure game.</description>
+            <image>https://upload.wikimedia.org/wikipedia/en/thumb/e/e4/Smetroidbox.jpg/220px-Smetroidbox.jpg</image>
+        </game>
+        <game id="4">
+            <title>Castlevania: Symphony of the Night</title>
+            <description>Play as Alucard, the son of Dracula, as you explore Dracula's castle, defeat powerful enemies, and uncover the secrets of the night.</description>
+            <image>https://upload.wikimedia.org/wikipedia/en/thumb/c/cf/Castlevania_SOTN_PAL.jpg/220px-Castlevania_SOTN_PAL.jpg</image>
+        </game>
+        <game id="5">
+            <title>Metroid Fusion</title>
+            <description>Help Samus Aran overcome an infection caused by the X Parasite, uncover the secrets of the research station, and save the galaxy.</description>
+            <image>https://upload.wikimedia.org/wikipedia/en/4/45/Metroid_Fusion_box.jpg</image>
+        </game>
+        <game id="6">
+            <title>Pac-Man Collection</title>
+            <description>Enjoy four classic Pac-Man games in one package: Pac-Man, Pac-Mania, Pac-Attack, and Pac-Man Arrangement.</description>
+            <image>https://upload.wikimedia.org/wikipedia/en/thumb/3/3b/Pac-Man_Collection_Coverart.png/220px-Pac-Man_Collection_Coverart.png</image>
+        </game>
+        <game id="7">
+            <title>Mario Kart Super Circuit</title>
+            <description>Race with Mario and friends through challenging tracks to win the coveted Mario Kart trophies. Unlock new tracks and master power-ups to outsmart opponents.</description>
+            <image>https://mario.wiki.gallery/images/thumb/0/0f/MKSC_Box_Art.jpg/270px-MKSC_Box_Art.jpg</image>
+        </game>
+        <game id="8">
+            <title>Super Mario Bros. 3</title>
+            <description>Join Mario and Luigi on their quest to rescue Princess Peach and save the Mushroom Kingdom from the clutches of Bowser.</description>
+            <image>https://upload.wikimedia.org/wikipedia/en/thumb/a/a5/Super_Mario_Bros._3_coverart.png/220px-Super_Mario_Bros._3_coverart.png</image>
+        </game>
+        <game id="9">
+            <title>Mega Man X</title>
+            <description>Battle the evil forces of Sigma and his army of Mavericks as the powerful Mega Man X in this action-packed platformer.</description>
+            <image>https://upload.wikimedia.org/wikipedia/en/thumb/8/88/MEGAMANXCharacters.png/220px-MEGAMANXCharacters.png</image>
+        </game>
+        <game id="10">
+            <title>Street Fighter II</title>
+            <description>Street Fighter II is a competitive fighting game featuring a variety of characters with unique fighting styles and special moves.</description>
+            <image>https://upload.wikimedia.org/wikipedia/vi/thumb/1/1d/SF2_JPN_flyer.jpg/220px-SF2_JPN_flyer.jpg</image>
+        </game>
+        <game id="11">
+            <title>Super Mario Bros.</title>
+            <description>Super Mario Bros. is a platform game where players control Mario as he travels through the Mushroom Kingdom to rescue Princess Toadstool from Bowser.</description>
+            <image>https://upload.wikimedia.org/wikipedia/en/thumb/0/03/Super_Mario_Bros._box.png/220px-Super_Mario_Bros._box.png</image>
+        </game>
+        <game id="12">
+            <title>Donkey Kong</title>
+            <description>Donkey Kong is an arcade game where players control Jumpman (later known as Mario) as he attempts to rescue a damsel in distress from Donkey Kong.</description>
+            <image>https://upload.wikimedia.org/wikipedia/en/1/14/Donkey_Kong_flier.jpg</image>
+        </game>
+        <game id="13">
+            <title>Space Invaders</title>
+            <description>Space Invaders is a classic arcade shooter where players control a laser cannon and defend against waves of invading aliens.</description>
+            <image>https://upload.wikimedia.org/wikipedia/en/thumb/0/0f/Space_Invaders_flyer%2C_1978.jpg/220px-Space_Invaders_flyer%2C_1978.jpg</image>
+        </game>
+        <game id="14">
+            <title>Contra</title>
+            <description></description>
+            <image>https://www.arcadeclub.co.uk/cdn/game-library/contra/screenshots/contra-screenshot-1.png_@1920_001.jpg</image>
+        </game>
+        </retro>
 </data>

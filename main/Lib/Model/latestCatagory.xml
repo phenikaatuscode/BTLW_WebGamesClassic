@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <latest>
+        <description>Games that just released or will be soon...</description>
+        <game id="1">
+            <title>Kamaeru: A Frog Refuge</title>
+            <short_description>Relaxing, Farming Sim, Cozy, Casual</short_description>
+            <full_description>A cozy and casual farming simulation game where you create a frog refuge.</full_description>
+            <release_date>Unknown</release_date>
+            <rating>Unknown</rating>
+            <author>Unknown</author>
+            <publisher>Unknown</publisher>
+            <price>260.000₫</price>
+            <discounted_price>234.000₫</discounted_price>
+            <image>https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1978150/header.jpg?t=1717877635</image>
+        </game>
+        <game id="2">
+            <title>POOOOL</title>
+            <short_description>Puzzle, Casual, Physics, Arcade</short_description>
+            <full_description>An arcade-style puzzle game with engaging physics-based challenges.</full_description>
+            <release_date>Unknown</release_date>
+            <rating>Unknown</rating>
+            <author>Unknown</author>
+            <publisher>Unknown</publisher>
+            <price>73.500₫</price>
+            <discounted_price>59.000₫</discounted_price>
+            <image>https://assets-prd.ignimgs.com/2024/06/08/untitled-1-1717875909194.png</image>
+        </game>
+        <game id="3">
+            <title>Tale of Rainbow 7: Prologue</title>
+            <short_description>Adventure, Singleplayer, Top-Down, Pixel Graphics</short_description>
+            <full_description>A top-down adventure game with beautiful pixel graphics and engaging story.</full_description>
+            <release_date>Unknown</release_date>
+            <rating>Unknown</rating>
+            <author>Unknown</author>
+            <publisher>Unknown</publisher>
+            <price>Free</price>
+            <image>https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2961980/header.jpg?t=1717834270</image>
+        </game>
+        <game id="4">
+            <title>The Big Catch: Tacklebox</title>
+            <short_description>Action, Adventure, Action-Adventure, Platformer</short_description>
+            <full_description>An action-adventure platformer with exciting gameplay mechanics.</full_description>
+            <release_date>Unknown</release_date>
+            <rating>Unknown</rating>
+            <author>Unknown</author>
+            <publisher>Unknown</publisher>
+            <price>Free</price>
+            <image>https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2985610/capsule_616x353.jpg?t=1717791447</image>
+        </game>
+        <game id="5">
+            <title>Megaloot: Prelude</title>
+            <short_description>Strategy, RPG, Casual, Singleplayer</short_description>
+            <full_description>A strategy RPG game with casual elements and singleplayer mode.</full_description>
+            <release_date>Unknown</release_date>
+            <rating>Unknown</rating>
+            <author>Unknown</author>
+            <publisher>Unknown</publisher>
+            <price>Free</price>
+            <image>https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2973490/capsule_616x353.jpg?t=1717782889</image>
+        </game>
+        <game id="6">
+            <title>Empires of the Undergrowth</title>
+            <short_description>Strategy, Simulation, Base Building, City Builder</short_description>
+            <full_description>A strategy simulation game focused on base building and city management.</full_description>
+            <release_date>Unknown</release_date>
+            <rating>Unknown</rating>
+            <author>Unknown</author>
+            <publisher>Unknown</publisher>
+            <price>399.000₫</price>
+            <discounted_price>259.500₫</discounted_price>
+            <image>https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/463530/capsule_616x353.jpg?t=1717613316</image>
+        </game>
+        <game id="7">
+            <title>Nightmare Kart</title>
+            <short_description>Racing, Vehicular Combat, Souls-like, Gothic</short_description>
+            <full_description>A gothic racing game with vehicular combat and souls-like elements.</full_description>
+            <release_date>Unknown</release_date>
+            <rating>Unknown</rating>
+            <author>Unknown</author>
+            <publisher>Unknown</publisher>
+            <price>Free</price>
+            <image>https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2930160/header.jpg?t=1715304542</image>
+        </game>
+        <game id="8">
+            <title>Saloon Simulator: Prologue</title>
+            <short_description>Immersive Sim, Crafting, Cooking, Farming Sim</short_description>
+            <full_description>An immersive simulation game focusing on crafting, cooking, and farming.</full_description>
+            <release_date>Unknown</release_date>
+            <rating>Unknown</rating>
+            <author>Unknown</author>
+            <publisher>Unknown</publisher>
+            <price>Free</price>
+            <image>https://assets-prd.ignimgs.com/2023/05/30/saloon-1685488076724.jpg</image>
+        </game>
+        <game id="9">
+            <title>Destiny 2: Legacy Collection (2024)</title>
+            <short_description>Action, Adventure, Free to Play</short_description>
+            <full_description>An action-adventure game set in the Destiny 2 universe, offering free-to-play content.</full_description>
+            <release_date>2024</release_date>
+            <rating>Unknown</rating>
+            <author>Bungie</author>
+            <publisher>Bungie</publisher>
+            <price>1.165.000₫</price>
+            <discounted_price>407.500₫</discounted_price>
+            <image>https://cdn1.epicgames.com/offer/428115def4ca4deea9d69c99c5a5a99e/DE_Bungie_Legacy_2024_S4_1200x1600_1200x1600-a97efee40b728e19c357942cecce04fb</image>
+        </game>
+        <game id="10">
+            <title>Cats Hidden Around the World</title>
+            <short_description>Please spend some time playing the game.</short_description>
+            <full_description>A casual game where you find hidden cats around various locations.</full_description>
+            <release_date>Unknown</release_date>
+            <rating>Unknown</rating>
+            <author>Unknown</author>
+            <publisher>Unknown</publisher>
+            <price>Unknown</price>
+            <image>https://www.metacritic.com/a/img/catalog/provider/6/12/6-1-928086-52.jpg</image>
+        </game>
+        <game id="11">
+            <title>Killer Klowns from Outer Space: The Game</title>
+            <short_description>Horror, Multiplayer, Survival Horror, Violent</short_description>
+            <full_description>A multiplayer survival horror game based on the cult classic movie.</full_description>
+            <release_date>Unknown</release_date>
+            <rating>Unknown</rating>
+            <author>Unknown</author>
+            <publisher>Unknown</publisher>
+            <price>470.000₫</price>
+            <image>https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1556100/header.jpg?t=1717519541</image>
+        </game>
+        <game id="12">
+            <title>Sandwalkers - Prologue</title>
+            <short_description>Party-Based RPG, Turn-Based Strategy, Fantasy, Exploration</short_description>
+            <full_description>A turn-based strategy RPG with a fantasy setting and exploration elements.</full_description>
+            <release_date>Unknown</release_date>
+            <rating>Unknown</rating>
+            <author>Unknown</author>
+            <publisher>Unknown</publisher>
+            <price>Free</price>
+            <image>https://cdn.akamai.steamstatic.com/steam/apps/2995230/header.jpg</image>
+        </game>
+        <game id="13">
+            <title>Guardians of the Sanctree: Early Birds</title>
+            <short_description>Strategy, Simulation, Adventure, Action</short_description>
+            <full_description>An early access strategy and simulation game with adventure elements.</full_description>
+            <release_date>Unknown</release_date>
+            <rating>Unknown</rating>
+            <author>Unknown</author>
+            <publisher>Unknown</publisher>
+            <price>Free</price>
+            <image>https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2947890/header.jpg?t=1717774055</image>
+        </game>
+        <game id="14">
+            <title>PANICORE</title>
+            <short_description>Horror, Online Co-Op, Psychological Horror, Multiplayer</short_description>
+            <full_description>A multiplayer psychological horror game with online co-op mode.</full_description>
+            <release_date>Unknown</release_date>
+            <rating>Unknown</rating>
+            <author>Unknown</author>
+            <publisher>Unknown</publisher>
+            <price>73.500₫</price>
+            <image>https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2695940/ss_e15e38107b44a7a8ea13e75f83754ba9849ea089.1920x1080.jpg?t=1717725326</image>
+        </game>
+    </latest>
+</data>
