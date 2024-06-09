@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data>
     <latest>
+        <description> Games that just release or will be soon ...  </description>
         <game id="1">
             <title>Game 1</title>
             <description>Description of game 1</description>
@@ -57,6 +58,10 @@
     </popular>
     <retro>
         <!-- Add more retro games here -->
-
+        <game id ="1">
+            <title> Sonic Classic Heroes </title>
+            <description> </description>
+            <image> main\Assets\Images\Thumbnails\sonic_classic_Heroes.png </image>
+        </game>
     </retro>
 </data>

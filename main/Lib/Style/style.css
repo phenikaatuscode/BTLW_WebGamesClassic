@@ -1,5 +1,6 @@
 :root {
-  --main-text-font:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  --main-text-font: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
 }
 
 * {
@@ -22,7 +23,7 @@ a {
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 1236px;
   margin: auto;
   padding: 0 15px;
 }
@@ -47,8 +48,8 @@ a {
 }
 
 .top-logo img {
-  width: 112px;
-  height: auto;
+  width: 90px;
+  height: auto  ;
   padding-top: 16px;
 }
 
@@ -75,6 +76,7 @@ a {
   position: relative;
 }
 
+
 .top-menu-items > ul > li a {
   color: black;
 }
@@ -94,12 +96,13 @@ a {
   top: 100px;
   display: none;
   opacity: 0;
-  transition: all 0.5s ease;
+  transition: all 0.2s ease-in-out;         
+
   background-color: #fff;
   height: auto !important;
   padding: 6px;
   border: 1px solid #dddd;
-  margin-top: 20px;
+  margin-top: 65px;
 }
 
 .top-menu-items ul li:hover .top-menu-item {
@@ -107,16 +110,27 @@ a {
   top: 60px;
   opacity: 1;
   background-color: white;
+  flex: auto;
+  z-index: 100;
+ 
 }
 
 .top-menu-item li {
   line-height: 30px;
   display: flex;
   justify-content: left !important;
+  
+}
+
+
+.top-menu-item   :hover{
+  background-color: #6666661a;
+  width: auto;
+  height: auto;
 }
 
 .top-menu-item li a {
-  font-size: 15px;
+  font-size: small;
   text-align: left;
   text-transform: capitalize;
   color: #333;
@@ -226,52 +240,103 @@ h1 {
   font-size: 20px;
 }
 
+
+/* .gamelist{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  
+} */
+
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(6, 1fr); /* 6 columns */
+  grid-template-columns: repeat(7, 1fr); /* 6 columns */
   gap: 10px;
   padding-bottom: 20px;
+  padding-left: 20px;
+}
+
+.grid h2 {
+  margin-left: 20px;
+  margin-bottom: 5px;
+  font-size: large;
+  color: rgb(0, 0, 0);
+  font: var( bold --main-text-font ) ;
+}
+.grid h3 {
+  margin-left: 20px;
+  margin-bottom: 20px;
+  font-size: small;
+  color: #000;
+  font: caption;
 }
 
 .game-item {
-  background-color: #31c7ed;
+  background-color: #000000e1;
   width: 100%; /* Ensure the item fits the column width */
   height: 0;
   padding-top: 100%; /* Aspect ratio 1:1 to maintain square shape */
-  border-radius: 8px;
+  border-radius: 3px;
   text-align: center;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s, box-shadow 0.3s;
   box-sizing: border-box; /* Ensure padding and border are included in the width and height */
+  position: relative; /* To enable absolute positioning of inner content */
+  overflow: hidden;
+}
+
+.game-item img {
+  width: 100%; /* Ensure the image covers the container */
+  height: 100%;
+  border-radius: 8px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: opacity 0.3s; /* Add transition for smooth opacity change */
+}
+
+.game-item-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  position: relative; /* To enable absolute positioning of inner content */
-}
-
-.game-item > * {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.game-item img {
-  width: 80%; /* Adjust as needed */
-  height: auto;
+  background-color: rgba(0, 0, 0, 0.5); /* Overlay background */
+  opacity: 0;
+  transition: opacity 0.3s;
   border-radius: 8px;
+  color: #fff;
+
 }
 
-.game-item h3 {
+.game-item:hover .game-item-content {
+  opacity: 1; 
+  background-color: #35353517;
+}
+
+.game-item:hover img {
+  opacity: 0.3; 
+}
+
+.game-item-content h3 {
   margin: 10px 0 5px 0;
   font-size: 20px;
-  color: #2c3e50;
+  color: #fff;
 }
 
-.game-item p {
+.game-item-content p {
   font-size: 15px;
-  color: #7f8c8d;
+  color: #fff;
+}
+
+.game-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
 }
 
 /* footer */
@@ -378,10 +443,10 @@ h1 {
 }
 
 /* Media Queries */
-@media (max-width: 768px) {
+@media (max-width: 90px) {
   .top-logo img {
-    width: 80px;
-    height: auto;
+    width: 90px;
+    height: 90px;
   }
 
   .top-menu-items > ul > li {
