@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <latest>
+        <description>Games that just released or will be soon...</description>
+        <game id="1">
+            <title>Kamaeru: A Frog Refuge</title>
+            <short_description>Relaxing, Farming Sim, Cozy, Casual</short_description>
+            <full_description>A cozy and casual farming simulation game where you create a frog refuge. In this delightful and tranquil game, players are tasked with developing a safe haven for frogs. Cultivate a lush environment, nurture various frog species, and create a serene sanctuary where your amphibian friends can thrive. Engage in farming activities, decorate the habitat, and discover the unique characteristics of each frog species as you immerse yourself in this peaceful and heartwarming experience.</full_description>
+            <release_date>Unknown</release_date>
+            <rating>Unknown</rating>
+            <author>Unknown</author>
+            <publisher>Unknown</publisher>
+            <price>260.000₫</price>
+            <image>https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1978150/header.jpg?t=1717877635</image>
+            <video>https://www.youtube.com/watch?v=N7bJo2jiBNw</video>
+            <play></play>
+            <tags>
+                <tag>Relaxing</tag>
+                <tag>Farming Sim</tag>
+                <tag>Cozy</tag>
+                <tag>Casual</tag>
+            </tags>
+            <color>  </color>
+        </game>
+        <game id="2">
+            <title>POOOOL</title>
+            <short_description>Puzzle, Casual, Physics, Arcade</short_description>
+            <full_description>An arcade-style puzzle game with engaging physics-based challenges. Dive into a vibrant and colorful world where each level presents a new and exciting puzzle. Use your problem-solving skills to manipulate the environment and objects, leveraging realistic physics to achieve your goals. With a variety of levels and increasing difficulty, POOOOL offers a captivating and addictive gameplay experience that will keep players entertained for hours. Perfect for fans of casual and puzzle games, as well as those who enjoy a good mental challenge.</full_description>
+            <release_date>Unknown</release_date>
+            <rating>Unknown</rating>
+            <author>Unknown</author>
+            <publisher>Unknown</publisher>
+            <price>73.500₫</price>
+            <image>https://assets-prd.ignimgs.com/2024/06/08/untitled-1-1717875909194.png</image>
+            <video>https://www.youtube.com/watch?v=bi5053cR70M</video>
+            <tags>
+                <tag>Puzzle</tag>
+                <tag>Casual</tag>
+                <tag>Physics</tag>
+                <tag>Arcade</tag>
+            </tags>
+        </game>
+        <game id="3">
+            <title>Alice in the Nightmare Land</title>
+            <short_description>Adventure, Singleplayer, Top-Down, Pixel Graphics</short_description>
+            <full_description>A top-down adventure game with beautiful pixel graphics and engaging story. Step into the shoes of Alice as she navigates through a mysterious and eerie world filled with challenging puzzles and dark secrets. The game's stunning pixel art creates a unique and immersive atmosphere, drawing players into its captivating storyline. Explore diverse environments, encounter intriguing characters, and solve complex puzzles to uncover the truth behind the Nightmare Land. Alice in the Nightmare Land offers a rich narrative experience combined with classic adventure gameplay, making it a must-play for fans of the genre.</full_description>
+            <release_date>Unknown</release_date>
+            <rating>Unknown</rating>
+            <author>Unknown</author>
+            <publisher>Unknown</publisher>
+            <price>Free</price>
+            <image>https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2583430/header.jpg?t=1717923918</image>
+            <video>https://www.youtube.com/watch?v=7gOt902hGsU</video>
+            <tags>
+                <tag>Adventure</tag>
+                <tag>Singleplayer</tag>
+                <tag>Top-Down</tag>
+                <tag>Pixel Graphics</tag>
+            </tags>
+        </game>
+        <game id="4">
+            <title>The Big Catch: Tacklebox</title>
+            <short_description>Action, Adventure, Action-Adventure, Platformer</short_description>
+            <full_description>An action-adventure platformer with exciting gameplay mechanics. Join a group of adventurous fishermen as they set out on a quest to catch the biggest and most elusive fish in the world. Traverse through challenging levels, overcome obstacles, and defeat enemies using a variety of tools and weapons. The Big Catch: Tacklebox combines fast-paced action with strategic platforming, offering a thrilling gaming experience. With its engaging storyline, diverse environments, and dynamic gameplay, this game is sure to captivate players of all ages.</full_description>
+            <release_date>Unknown</release_date>
+            <rating>Unknown</rating>
+            <author>Unknown</author>
+            <publisher>Unknown</publisher>
+            <price>Free</price>
+            <image>https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2985610/capsule_616x353.jpg?t=1717791447</image>
+            <video>https://www.youtube.com/watch?v=wRUs_FC9UdM</video>
+            <tags>
+                <tag>Action</tag>
+                <tag>Adventure</tag>
+                <tag>Action-Adventure</tag>
+                <tag>Platformer</tag>
+            </tags>
+        </game>
+        <game id="5">
+            <title>Megaloot: Prelude</title>
+            <short_description>Strategy, RPG, Casual, Singleplayer</short_description>
+            <full_description>A strategy RPG game with casual elements and singleplayer mode. Dive into the world of Megaloot, where players are tasked with building their own empire and conquering new territories. Engage in strategic battles, manage resources, and develop your characters' abilities to achieve victory. With its blend of strategy and RPG mechanics, Megaloot: Prelude offers a unique and immersive gaming experience. The game's casual elements make it accessible to a wide range of players, while its depth and complexity provide a satisfying challenge for strategy enthusiasts.</full_description>
+            <release_date>Unknown</release_date>
+            <rating>Unknown</rating>
+            <author>Unknown</author>
+            <publisher>Unknown</publisher>
+            <price>Free</price>
+            <image>https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2973490/capsule_616x353.jpg?t=1717782889</image>
+            <video>https://www.youtube.com/watch?v=-az-0yChx3U</video>
+            <tags>
+                <tag>Strategy</tag>
+                <tag>RPG</tag>
+                <tag>Casual</tag>
+                <tag>Singleplayer</tag>
+            </tags>
+        </game>
+        <game id="6">
+            <title>Empires of the Undergrowth</title>
+            <short_description>Strategy, Simulation, Base Building, City Builder</short_description>
+            <full_description>A strategy simulation game focused on base building and city management. Players take on the role of a colony leader, tasked with building and managing a thriving underground empire. Plan and construct your base, gather resources, and defend against threats to ensure the survival and growth of your colony. With its detailed simulation mechanics and engaging gameplay, Empires of the Undergrowth offers a rich and immersive experience for fans of strategy and simulation games. Explore the depths of the underground world, uncover hidden secrets, and lead your colony to greatness.</full_description>
+            <release_date>Unknown</release_date>
+            <rating>Unknown</rating>
+            <author>Unknown</author>
+            <publisher>Unknown</publisher>
+            <price>399.000₫</price>
+            <image>https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/463530/capsule_616x353.jpg?t=1717613316</image>
+            <video>https://www.youtube.com/watch?v=ELSOKmgDRvA</video>
+            <tags>
+                <tag>Strategy</tag>
+                <tag>Simulation</tag>
+                <tag>Base Building</tag>
+                <tag>City Builder</tag>
+            </tags>
+        </game>
+        <game id="7">
+            <title>Nightmare Kart</title>
+            <short_description>Racing, Vehicular Combat, Souls-like, Gothic</short_description>
+            <full_description>A gothic racing game with vehicular combat and souls-like elements. Enter a dark and eerie world where drivers compete in deadly races. Customize your vehicle with an array of weapons and upgrades, and engage in intense combat while racing to the finish line. The game's unique blend of gothic aesthetics and challenging gameplay creates a thrilling experience for players. With its atmospheric setting, strategic combat, and high-speed racing, Nightmare Kart offers a unique and exciting take on the racing genre.</full_description>
+            <release_date>Unknown</release_date>
+            <rating>Unknown</rating>
+            <author>Unknown</author>
+            <publisher>Unknown</publisher>
+            <price>Free</price>
+            <image>https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2930160/header.jpg?t=1715304542</image>
+            <video>https://www.youtube.com/watch?v=kH0_71lBW0c</video>
+            <tags>
+                <tag>Racing</tag>
+                <tag>Vehicular Combat</tag>
+                <tag>Souls-like</tag>
+                <tag>Gothic</tag>
+            </tags>
+        </game>
+        <game id="8">
+            <title>Saloon Simulator: Prologue</title>
+            <short_description>Immersive Sim, Crafting, Cooking, Farming Sim</short_description>
+            <full_description>An immersive simulation game focusing on crafting, cooking, and farming. Step into the shoes of a saloon owner and manage every aspect of your business. Grow crops, raise livestock, and gather ingredients to create delicious meals for your patrons. Customize your saloon, interact with colorful characters, and build a thriving community. With its detailed simulation mechanics and engaging gameplay, Saloon Simulator: Prologue offers a rich and rewarding experience for players who enjoy crafting, cooking, and farming simulations.</full_description>
+            <release_date>Unknown</release_date>
+            <rating>Unknown</rating>
+            <author>Unknown</author>
+            <publisher>Unknown</publisher>
+            <price>Free</price>
+            <image>https://assets-prd.ignimgs.com/2023/05/30/saloon-1685488076724.jpg</image>
+            <video>https://www.youtube.com/watch?v=F4_SYSmETBo</video>
+            <tags>
+                <tag>Immersive Sim</tag>
+                <tag>Crafting</tag>
+                <tag>Cooking</tag>
+                <tag>Farming Sim</tag>
+            </tags>
+        </game>
+        <game id="9">
+            <title>Destiny 2: Legacy Collection (2024)</title>
+            <short_description>Action, Adventure, Free to Play</short_description>
+            <full_description>An action-adventure game set in the Destiny 2 universe, offering free-to-play content. Experience the epic story and thrilling gameplay of Destiny 2 with this comprehensive collection. Explore vast worlds, engage in intense combat, and team up with other players to tackle challenging missions and raids. With its rich lore, stunning visuals, and dynamic gameplay, Destiny 2: Legacy Collection (2024) provides an unparalleled gaming experience. Whether you're a seasoned Guardian or new to the franchise, this collection offers something for everyone.</full_description>
+            <release_date>2024</release_date>
+            <rating>Unknown</rating>
+            <author>Bungie</author>
+            <publisher>Bungie</publisher>
+            <price>1.165.000₫</price>
+            <image>https://cdn1.epicgames.com/offer/428115def4ca4deea9d69c99c5a5a99e/DE_Bungie_Legacy_2024_S4_1200x1600_1200x1600-a97efee40b728e19c357942cecce04fb</image>
+            <video>https://www.youtube.com/watch?v=GfhsBlNvABE</video>
+            <tags>
+                <tag>Action</tag>
+                <tag>Adventure</tag>
+                <tag>Free to Play</tag>
+            </tags>
+        </game>
+        <game id="10">
+            <title>Cats Hidden Around the World</title>
+            <short_description>Please spend some time playing the game.</short_description>
+            <full_description>A casual game where you find hidden cats around various locations. Embark on a delightful adventure to discover cats cleverly hidden in beautifully illustrated scenes from around the world. Each level presents a new and unique challenge, requiring keen observation and a sharp eye to find all the hidden cats. With its relaxing gameplay and charming visuals, Cats Hidden Around the World offers a perfect escape for players looking to unwind and enjoy a light-hearted gaming experience.</full_description>
+            <release_date>Unknown</release_date>
+            <rating>Unknown</rating>
+            <author>Unknown</author>
+            <publisher>Unknown</publisher>
+            <price>Unknown</price>
+            <image>https://www.metacritic.com/a/img/catalog/provider/6/12/6-1-928086-52.jpg</image>
+            <video>https://www.youtube.com/watch?v=4G2Hgz-adac</video>
+            <tags>
+                <tag>Casual</tag>
+                <tag>Hidden Object</tag>
+                <tag>Relaxing</tag>
+            </tags>
+        </game>
+        <game id="11">
+            <title>Killer Klowns from Outer Space: The Game</title>
+            <short_description>Horror, Multiplayer, Survival Horror, Violent</short_description>
+            <full_description>A multiplayer survival horror game based on the cult classic movie. Players take on the roles of either the Killer Klowns or the citizens of Crescent Cove in a battle for survival. As a Klown, use an array of bizarre and deadly weapons to capture humans, while as a citizen, use your wits and resources to evade capture and fight back. With its dark humor, terrifying gameplay, and faithful recreation of the movie's atmosphere, Killer Klowns from Outer Space: The Game offers a unique and thrilling horror experience.</full_description>
+            <release_date>Unknown</release_date>
+            <rating>Unknown</rating>
+            <author>Unknown</author>
+            <publisher>Unknown</publisher>
+            <price>470.000₫</price>
+            <image>https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1556100/header.jpg?t=1717519541</image>
+            <video>https://www.youtube.com/watch?v=iqlVMqvo0hg</video>
+            <tags>
+                <tag>Horror</tag>
+                <tag>Multiplayer</tag>
+                <tag>Survival Horror</tag>
+                <tag>Violent</tag>
+            </tags>
+        </game>
+        <game id="12">
+            <title>Sandwalkers - Prologue</title>
+            <short_description>Party-Based RPG, Turn-Based Strategy, Fantasy, Exploration</short_description>
+            <full_description>A turn-based strategy RPG with a fantasy setting and exploration elements. Lead a group of adventurers through a perilous journey in a beautifully crafted fantasy world. Strategically manage your party's skills and resources to overcome challenges and uncover the secrets of the land. The game's rich narrative and deep strategic gameplay provide an engaging experience for fans of both RPGs and strategy games. Explore diverse environments, encounter unique characters, and make impactful decisions that shape your adventure in Sandwalkers - Prologue.</full_description>
+            <release_date>Unknown</release_date>
+            <rating>Unknown</rating>
+            <author>Unknown</author>
+            <publisher>Unknown</publisher>
+            <price>Free</price>
+            <image>https://cdn.akamai.steamstatic.com/steam/apps/2995230/header.jpg</image>
+            <video>https://www.youtube.com/watch?v=gjrYxpzNVXU</video>
+            <tags>
+                <tag>Party-Based RPG</tag>
+                <tag>Turn-Based Strategy</tag>
+                <tag>Fantasy</tag>
+                <tag>Exploration</tag>
+            </tags>
+        </game>
+        <game id="13">
+            <title>Guardians of the Sanctree: Early Birds</title>
+            <short_description>Strategy, Simulation, Adventure, Action</short_description>
+            <full_description>An early access strategy and simulation game with adventure elements. Join the Guardians of the Sanctree in their quest to protect the mystical tree from various threats. Build and manage your base, train your guardians, and embark on thrilling adventures to gather resources and uncover ancient secrets. The game's blend of strategy, simulation, and adventure elements provides a unique and captivating gameplay experience. With its dynamic world and engaging mechanics, Guardians of the Sanctree: Early Birds promises endless hours of strategic fun.</full_description>
+            <release_date>Unknown</release_date>
+            <rating>Unknown</rating>
+            <author>Unknown</author>
+            <publisher>Unknown</publisher>
+            <price>Free</price>
+            <image>https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2947890/header.jpg?t=1717774055</image>
+            <video>https://www.youtube.com/watch?v=yyVUQTmCnVo</video>
+            <tags>
+                <tag>Strategy</tag>
+                <tag>Simulation</tag>
+                <tag>Adventure</tag>
+                <tag>Action</tag>
+            </tags>
+        </game>
+        <game id="14">
+            <title>PANICORE</title>
+            <short_description>Horror, Online Co-Op, Psychological Horror, Multiplayer</short_description>
+            <full_description>A multiplayer psychological horror game with online co-op mode. Enter a world of fear and paranoia as you and your friends navigate through terrifying environments filled with nightmarish creatures. Work together to solve puzzles, avoid deadly traps, and survive the horrors that await. The game's intense atmosphere and cooperative gameplay make for a heart-pounding experience that will test your nerves and teamwork. With its psychological horror elements and online multiplayer mode, PANICORE offers a unique and terrifying adventure.</full_description>
+            <release_date>Unknown</release_date>
+            <rating>Unknown</rating>
+            <author>Unknown</author>
+            <publisher>Unknown</publisher>
+            <price>73.500₫</price>
+            <image>https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2695940/ss_e15e38107b44a7a8ea13e75f83754ba9849ea089.1920x1080.jpg?t=1717725326</image>
+            <video>https://www.youtube.com/watch?v=0sYnMh96qpA</video>
+            <tags>
+                <tag>Horror</tag>
+                <tag>Online Co-Op</tag>
+                <tag>Psychological Horror</tag>
+                <tag>Multiplayer</tag>
+            </tags>
+        </game>
+    </latest>
+</data>
