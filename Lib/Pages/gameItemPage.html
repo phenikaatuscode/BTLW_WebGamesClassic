@@ -19,6 +19,7 @@
         <div id="gameDetails">
             <h3>Game Title: <span id="gameTitle"></span></h3>
             <iframe id="gameVideo" class="video" width="420" height="315" src="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe id="playGame" src="" width="600" height="450" frameborder="no" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" scrolling="no"></iframe>
             <img id="gameImage" src="" alt="Game Image">
             <p id="gameShortDescription"></p>
             <p><strong>Full Description:</strong> <span id="gameFullDescription"></span></p>
@@ -50,8 +51,22 @@
                 document.getElementById('price').textContent = gameData.price;
                 
                 const videoSrc = gameData.video;
-                const embedUrl = convertToEmbedUrl(videoSrc);
-                document.getElementById('gameVideo').src = embedUrl;
+                // Check if video source or play source is available
+                if (videoSrc != ''){
+        
+                    document.getElementById('playGame').style.display = 'none';
+                    const embedUrl = convertToEmbedUrl(videoSrc);
+                    document.getElementById('gameVideo').src = embedUrl;
+                }
+                else if (gameData.play != '')
+                {
+                    document.getElementById('gameVideo').style.display = 'none';
+                    document.getElementById('playGame').src = gameData.play;
+                }
+                else {
+                    document.getElementById('gameVideo').style.display = 'none';
+                    document.getElementById('playGame').style.display = 'none';
+                }
             } else {
                 console.error("No game data found in localStorage");
             }

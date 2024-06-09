@@ -29,6 +29,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 publisher: game.getElementsByTagName('publisher')[0]?.textContent || '',
                 price: game.getElementsByTagName('price')[0]?.textContent || '',
                 video: game.getElementsByTagName('video')[0]?.textContent || '',
+                play: game.getElementsByTagName('play')[0]?.textContent || '',
                 image: image
             };
             localStorage.setItem('selectedGame', JSON.stringify(gameData));
