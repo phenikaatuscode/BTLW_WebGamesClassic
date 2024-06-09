@@ -38,6 +38,10 @@ document.addEventListener("DOMContentLoaded", function() {
             };
             localStorage.setItem('selectedGame', JSON.stringify(gameData));
 
+            // Use BroadcastChannel to send the message to the game item page
+            const channel = new BroadcastChannel("gameItemChannel");
+            channel.postMessage(gameData);
+
             // Redirect to the game item page
             window.location.href = 'Lib/Pages/gameItemPage.html';
         };
