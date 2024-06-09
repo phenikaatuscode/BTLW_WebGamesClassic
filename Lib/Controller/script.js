@@ -17,6 +17,24 @@ document.addEventListener("DOMContentLoaded", function() {
                 <p>${description}</p>
             </div>
         `;
+        
+        gameItem.onclick = () => {
+            const targetUrl = `Lib/Pages/gameItemPage.html`;
+
+            // Check if the target URL exists
+            fetch(targetUrl, { method: 'HEAD' })
+                .then(response => {
+                    if (response.ok) {
+                        window.location.href = targetUrl;
+                    } else {
+                        window.location.href = '404.html';
+                    }
+                })
+                .catch(error => {
+                    console.error('Error checking URL:', error);
+                    window.location.href = '404.html';
+            });
+        };
         return gameItem;
     }
 
