@@ -8,21 +8,18 @@
 </head>
 <body>
     <div class="header">
-        <h1>PlayTest by tanhtuscode</h1>
+        <h1 id ="title"></h1>
         <nav>
             <a href="/index.html">Dashboard</a>
-            <a href="#">Profile</a>
         </nav>
     </div>
     <div class="content">
-        <h2>Game Information</h2>
         <div id="gameDetails">
-            <h3>Game Title: <span id="gameTitle"></span></h3>
+            <h3> <span id="gameTitle"></span></h3>
             <iframe id="gameVideo" class="video" width="420" height="315" src="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <iframe id="playGame" src="" width="600" height="450" frameborder="no" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" scrolling="no"></iframe>
             <img id="gameImage" src="" alt="Game Image">
-            <p id="gameShortDescription"></p>
-            <p><strong>Full Description:</strong> <span id="gameFullDescription"></span></p>
+            <p><strong>Description:</strong> <span id="gameFullDescription"></span></p>
             <p><strong>Release Date:</strong> <span id="releaseDate"></span></p>
             <p><strong>Rating:</strong> <span id="rating"></span></p>
             <p><strong>Author:</strong> <span id="author"></span></p>
@@ -31,8 +28,7 @@
         </div>
     </div>
     <div class="footer">
-        <p>&copy; 2024 PlayTest by tanhtuscode</p>
-        <a href="#">Demo</a>
+        <p>&copy; 2024 : The Game Libary</p>
     </div>
 
     <script>
@@ -42,13 +38,19 @@
             if (gameData) {
                 document.getElementById('gameTitle').textContent = gameData.title;
                 document.getElementById('gameImage').src = gameData.image;
-                document.getElementById('gameShortDescription').textContent = gameData.shortDescription;
                 document.getElementById('gameFullDescription').textContent = gameData.fullDescription;
                 document.getElementById('releaseDate').textContent = gameData.release_date;
                 document.getElementById('rating').textContent = gameData.rating;
                 document.getElementById('author').textContent = gameData.author;
                 document.getElementById('publisher').textContent = gameData.publisher;
                 document.getElementById('price').textContent = gameData.price;
+                document.getElementById('title').textContent = gameData.title;
+
+                try {
+                    document.body.style.backgroundImage = `url(${gameData.image})`;
+                } catch (error) {
+                    document.body.style.backgroundImage = none;
+                }
                 
                 const videoSrc = gameData.video;
                 // Check if video source or play source is available
@@ -71,6 +73,7 @@
                 console.error("No game data found in localStorage");
             }
         });
+
 
         function convertToEmbedUrl(url) {
             const urlObj = new URL(url);

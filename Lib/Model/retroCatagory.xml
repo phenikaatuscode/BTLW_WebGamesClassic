@@ -219,7 +219,7 @@
             <price>Unknown</price>
             <image>https://upload.wikimedia.org/wikipedia/en/thumb/0/0f/Space_Invaders_flyer%2C_1978.jpg/220px-Space_Invaders_flyer%2C_1978.jpg</image>
             <video></video>
-            <play>"https://www.retrogames.cc/embed/22875-space-invaders-the-original-game-usa.html"</play>
+            <play>https://www.retrogames.cc/embed/22875-space-invaders-the-original-game-usa.html</play>
             <tags>
                 <tag>Shooter</tag>
                 <tag>Action</tag>
@@ -236,7 +236,7 @@
             <price>Unknown</price>
             <image>https://www.arcadeclub.co.uk/cdn/game-library/contra/screenshots/contra-screenshot-1.png_@1920_001.jpg</image>
             <video></video>
-            <play>"https://www.retrogames.cc/embed/16841-contra-usa.html"</play>
+            <play>https://www.retrogames.cc/embed/16841-contra-usa.html</play>
             <tags>
                 <tag>Action</tag>
             </tags>

@@ -322,6 +322,7 @@ h1 {
 
 }
 
+
 .game-item:hover .game-item-content {
   opacity: 1; 
   background-color: #35353517;
@@ -334,17 +335,22 @@ h1 {
 .game-item-content h3 {
   margin: 10px 0 5px 0;
   font-size: 20px;
-  color: #fff;
+  color: #f74747;
+  margin: 0 10px 0 10px;
+ 
 }
 
 .game-item-content p {
-  font-size: 15px;
+  font-size: 13px;
   color: #fff;
+  margin: 0 10px 0 10px;
+  font-style: italic;
 }
 
 .game-item:hover {
   transform: scale(1.05);
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
 }
 
 /* footer */
