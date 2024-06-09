@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lastest>
+    <game id="1">
+        <title>Game 1</title>
+        <description>Description of game 1</description>
+        <image>/main/Assets/Games/game1.png</image>
+    </game>
+    <game id="2">
+        <title>Game 2</title>
+        <description>Description of game 2</description>
+        <image>/main/Assets/Games/game2.png</image>
+    </game>
+    <game id="3">
+        <title>Game 3</title>
+        <description>Description of game 3</description>
+        <image>/main/Assets/Games/game3.png</image>
+    </game>
+    <game id="4">
+        <title>Game 4</title>
+        <description>Description of game 4</description>
+        <image>/main/Assets/Games/game4.png</image>
+    </game>
+    <game id="5">
+        <title>Game 5</title>
+        <description>Description of game 5</description>
+        <image>/main/Assets/Games/game5.png</image>
+    </game>
+    <game id="6">
+        <title>Game 6</title>
+        <description>Description of game 6</description>
+        <image>/main/Assets/Games/game6.png</image>
+    </game>
+    <game id="7">
+        <title>Game 7</title>
+        <description>Description of game 7</description>
+        <image>/main/Assets/Games/game7.png</image>
+    </game>
+    <game id="8">
+        <title>Game 8</title>
+        <description>Description of game 8</description>
+        <image>/main/Assets/Games/game8.png</image>
+    </game>
+</lastest>
+
+<popular>
+</popular>
