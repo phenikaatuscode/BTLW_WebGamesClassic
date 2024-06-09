@@ -11,7 +11,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: url(/BTLW_WebGamesClassic/main/Assets/wallpaperflare.com_wallpaper\ \(5\).jpg) no-repeat;
+    background: url(/main/Assets/mario\ pixel\ art\ gift.jpg) no-repeat;
     
     background-size: cover;
     background-position: center;
@@ -71,6 +71,9 @@ body {
     font-size: 14.5px;
     margin: -15px 0 15px;
 }
+.wrapper .remember-forgot a {
+    text-decoration: none;
+}
 .remember-forgot label input {
     accent-color: #fff;
     margin-right: 3px;
@@ -94,7 +97,9 @@ body {
     color: #333;
     font-weight: 600;
 }
-
+.wrapper .btn a {
+    text-decoration: none;
+}
 .wrapper .register-link {
     font-size: 14.5px;
     text-align: center;
