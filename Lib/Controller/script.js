@@ -51,7 +51,7 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
     // Fetch XML data and create game categories
-    fetch('/main/Lib/Model/data.xml')
+    fetch('Lib/Model/data.xml')
         .then(response => response.text())
         .then(data => {
             const parser = new DOMParser();
