@@ -1,9 +1,5 @@
 document.addEventListener("DOMContentLoaded", function() {
-    const gameContainers = {
-        popular: document.getElementById('popularContainer'),
-        retro: document.getElementById('retroContainer'),
-        latest: document.getElementById('latestContainer'),
-    };
+    const gameSectionsContainer = document.getElementById('gameSectionsContainer');
 
     function createGameItem(game) {
         const id = game.getAttribute('id');
@@ -21,6 +17,26 @@ document.addEventListener("DOMContentLoaded", function() {
         return gameItem;
     }
 
+    function createGameCategory(category, games) {
+        const section = document.createElement('section');
+        section.className = 'grid';
+        const h2 = document.createElement('h2');
+        h2.textContent = `${category.charAt(0).toUpperCase() + category.slice(1)} Games`;
+        section.appendChild(h2);
+
+        const gridContainer = document.createElement('div');
+        gridContainer.className = 'grid-container';
+        gridContainer.id = `${category}Container`;
+        section.appendChild(gridContainer);
+
+        for (let i = 0; i < games.length; i++) {
+            const gameItem = createGameItem(games[i]);
+            gridContainer.appendChild(gameItem);
+        }
+
+        gameSectionsContainer.appendChild(section);
+    }
+
     fetch('/main/Lib/Model/data.xml')
         .then(response => response.text())
         .then(data => {
@@ -29,15 +45,12 @@ document.addEventListener("DOMContentLoaded", function() {
 
             ['popular', 'retro', 'latest'].forEach(category => {
                 const games = xmlDoc.getElementsByTagName(category)[0].getElementsByTagName('game');
-                // Check if there is no data in the category -TusAnh!
-                if (games.length == 0 ) {
-                    console.warn('Category data return zero');
+                // Check if there is no data in the category
+                if (games.length == 0) {
+                    console.warn(`No data found for category: ${category}`);
                     return;
                 }
-                for (let i = 0; i < games.length; i++) {
-                    const gameItem = createGameItem(games[i]);
-                    gameContainers[category].appendChild(gameItem);
-                }
+                createGameCategory(category, games);
             });
         })
         .catch(error => {
