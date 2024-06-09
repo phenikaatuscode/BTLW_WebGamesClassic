@@ -11,10 +11,11 @@
             <author>Nintendo</author>
             <publisher>Nintendo</publisher>
             <price>Unknown</price>
-            <image>https://i.ytimg.com/vi/uHGShqcAHlQ/maxresdefault.jpg</image>
+            <image>https://m.media-amazon.com/images/I/71mDmFhe7SL._AC_UF1000,1000_QL80_.jpg</image>
+            <video>https://www.youtube.com/watch?v=kggOvvbLVO0</video>
         </game>
         <game id="2">
-            <title>SoulCalibur</title>
+            <title>SoulCalibur VI</title>
             <short_description>This is a tale of souls and swords, transcending the world and all its history, told for all eternity...</short_description>
             <full_description>The greatest weapons-based fighter returns, this time on Sega Dreamcast. Soul Calibur unleashes incredible graphics, fantastic fighters, and combos so amazing they'll make your head spin!</full_description>
             <release_date>SEP 8, 1999</release_date>
@@ -22,7 +23,8 @@
             <author>Project Soul</author>
             <publisher>Namco</publisher>
             <price>Unknown</price>
-            <image>https://www.metacritic.com/a/img/catalog/provider/6/3/6-1-7379-13.jpg</image>
+            <image>https://upload.wikimedia.org/wikipedia/en/8/84/Soulcalibur_VI_cover_art.jpg</image>
+            <video>https://www.youtube.com/watch?v=0S-uXOwrRYI</video>
         </game>
         <game id="3">
             <title>Grand Theft Auto IV</title>
@@ -34,6 +36,8 @@
             <publisher>Rockstar Games</publisher>
             <price>Unknown</price>
             <image>https://upload.wikimedia.org/wikipedia/vi/b/b7/Grand_Theft_Auto_IV_cover.jpg</image>
+            <video>https://www.youtube.com/watch?v=M80K51DosFo</video>
+            
         </game>
         <game id="4">
             <title>Super Mario Galaxy</title>
@@ -56,6 +60,7 @@
             <publisher>Nintendo</publisher>
             <price>Unknown</price>
             <image>https://upload.wikimedia.org/wikipedia/en/thumb/6/65/Super_Mario_Galaxy_2_Box_Art.jpg/220px-Super_Mario_Galaxy_2_Box_Art.jpg</image>
+            <video>https://www.youtube.com/watch?v=8Mng-r3D20Y</video>
         </game>
         <game id="6">
             <title>The Legend of Zelda: Breath of the Wild</title>
@@ -67,6 +72,7 @@
             <publisher>Nintendo</publisher>
             <price>Unknown</price>
             <image>https://upload.wikimedia.org/wikipedia/vi/thumb/c/c6/The_Legend_of_Zelda_Breath_of_the_Wild.jpg/220px-The_Legend_of_Zelda_Breath_of_the_Wild.jpg</image>
+            <video>https://www.youtube.com/watch?v=1rPxiXXxftE</video>
         </game>
         <game id="7">
             <title>Tony Hawk's Pro Skater 3</title>
@@ -78,6 +84,7 @@
             <publisher>Activision</publisher>
             <price>Unknown</price>
             <image>https://upload.wikimedia.org/wikipedia/en/2/2b/Tony_Hawk%27s_Pro_Skater_3_Coverart.jpg</image>
+            <video>https://www.youtube.com/watch?v=H6DnWYSyWww</video>
         </game>
         <game id="8">
             <title>Perfect Dark (2000)</title>
@@ -89,6 +96,7 @@
             <publisher>Rare</publisher>
             <price>Unknown</price>
             <image>https://www.gamespot.com/a/uploads/scale_medium/mig/0/2/1/1/2210211-198274_27981_front.jpg</image>
+            <video>https://www.youtube.com/watch?v=PC9c2L5WBLU</video>
         </game>
         <game id="9">
             <title>Red Dead Redemption 2</title>
@@ -100,6 +108,7 @@
             <publisher>Rockstar Games</publisher>
             <price>Unknown</price>
             <image>https://upload.wikimedia.org/wikipedia/en/a/a7/Red_Dead_Redemption.jpg</image>
+            <video>https://www.youtube.com/watch?v=gmA6MrX81z4</video>
         </game>
         <game id="10">
             <title>Grand Theft Auto V</title>
@@ -111,6 +120,7 @@
             <publisher>Rockstar Games</publisher>
             <price>Unknown</price>
             <image>https://upload.wikimedia.org/wikipedia/en/a/a5/Grand_Theft_Auto_V.png</image>
+            <video>https://www.youtube.com/watch?v=QkkoHAzjnUs</video>
         </game>
         <game id="11">
             <title>Metroid Prime</title>
@@ -122,6 +132,7 @@
             <publisher>Nintendo</publisher>
             <price>Unknown</price>
             <image>https://upload.wikimedia.org/wikipedia/en/thumb/b/ba/MetroidPrimebox.jpg/220px-MetroidPrimebox.jpg</image>
+            <video>https://www.youtube.com/watch?v=e9OQOJC1QII</video>
         </game>
         <game id="12">
             <title>Grand Theft Auto III</title>
@@ -133,6 +144,7 @@
             <publisher>Rockstar Games</publisher>
             <price>Unknown</price>
             <image>https://upload.wikimedia.org/wikipedia/vi/thumb/b/be/GTA3boxcover.jpg/220px-GTA3boxcover.jpg</image>
+            <video>https://www.youtube.com/watch?v=agACYOeuX7k</video>
         </game>
         <game id="13">
             <title>Super Mario Odyssey</title>
@@ -144,17 +156,19 @@
             <publisher>Nintendo</publisher>
             <price>Unknown</price>
             <image>https://upload.wikimedia.org/wikipedia/en/thumb/8/8d/Super_Mario_Odyssey.jpg/220px-Super_Mario_Odyssey.jpg</image>
+            <video>https://www.youtube.com/watch?v=wGQHQc_3ycE</video>
         </game>
         <game id="14">
             <title>Halo: Combat Evolved</title>
-            <short_description>In a desperate attempt to keep a conquering alien race called the Covenant from finding Earth, you--a cybernetically enhanced soldier representing the peak of human military evolution--and a ragtag group of Marines flee to a distant uncharted system where you unexpectedly stumble across Halo, an enormous alien artifact in orbit between a gas giant and its moon. Your objective: Uncover Halo's horrible secret, and destroy mankind's nemesis - the Covenant.</short_description>
-            <full_description>Join the fight against the Covenant in Halo: Combat Evolved and uncover the mysteries of the Halo ring.</full_description>
+            <short_description></short_description>
+            <full_description>In a desperate attempt to keep a conquering alien race called the Covenant from finding Earth, you--a cybernetically enhanced soldier representing the peak of human military evolution--and a ragtag group of Marines flee to a distant uncharted system where you unexpectedly stumble across Halo, an enormous alien artifact in orbit between a gas giant and its moon. Your objective: Uncover Halo's horrible secret, and destroy mankind's nemesis - the Covenant.</full_description>
             <release_date>NOV 15, 2001</release_date>
             <rating>M</rating>
             <author>Bungie</author>
             <publisher>Microsoft Game Studios</publisher>
             <price>Unknown</price>
             <image>https://upload.wikimedia.org/wikipedia/vi/thumb/b/b2/Halo_Combat_Evolved_DVD_cover.jpg/220px-Halo_Combat_Evolved_DVD_cover.jpg</image>
+            <video>https://www.youtube.com/watch?v=v0kHiEME0Vk</video>
         </game>
     </popular>
 </data>

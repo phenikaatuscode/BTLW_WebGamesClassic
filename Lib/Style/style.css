@@ -251,11 +251,12 @@ h1 {
 
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(7, 1fr); /* 6 columns */
+  grid-template-columns:  repeat(auto-fill, minmax(240px, 1fr));
   gap: 10px;
   padding-bottom: 20px;
   padding-left: 20px;
 }
+
 
 .grid h2 {
   margin-left: 10px;
@@ -322,6 +323,7 @@ h1 {
 
 }
 
+
 .game-item:hover .game-item-content {
   opacity: 1; 
   background-color: #35353517;
@@ -334,17 +336,22 @@ h1 {
 .game-item-content h3 {
   margin: 10px 0 5px 0;
   font-size: 20px;
-  color: #fff;
+  color: #f74747;
+  margin: 0 10px 0 10px;
+ 
 }
 
 .game-item-content p {
-  font-size: 15px;
+  font-size: 13px;
   color: #fff;
+  margin: 0 10px 0 10px;
+  font-style: italic;
 }
 
 .game-item:hover {
   transform: scale(1.05);
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
 }
 
 /* footer */
