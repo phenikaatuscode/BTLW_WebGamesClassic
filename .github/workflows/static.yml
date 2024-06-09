@@ -4,7 +4,7 @@ name: Deploy static content to Pages
 on:
   # Runs on pushes targeting the default branch
   push:
-    branches: ["main"]
+    branches: ["build/deloy_v2"]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -26,7 +26,7 @@ jobs:
   deploy:
     environment:
       name: github-page
-      url: ${{ steps.deployment.outputs.page_url } + "/index.html"}
+      url: ${{ steps.deployment.outputs.page_url }"}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
