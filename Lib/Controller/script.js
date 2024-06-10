@@ -44,7 +44,7 @@ document.addEventListener("DOMContentLoaded", function() {
             channel.postMessage(gameData);
 
             // Redirect to the game item page
-            window.location.href = '/lib/pages/gameItemPage.html';
+            window.location.href = 'lib/pages/gameItemPage.html';
         };
 
         return gameItem;
