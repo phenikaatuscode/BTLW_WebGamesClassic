@@ -44,7 +44,7 @@ document.addEventListener("DOMContentLoaded", function() {
             channel.postMessage(gameData);
 
             // Redirect to the game item page
-            window.location.href = '/Lib/Pages/gameItemPage.html';
+            window.location.href = 'lib/pages/gameItemPage.html';
         };
 
         return gameItem;
@@ -61,7 +61,7 @@ document.addEventListener("DOMContentLoaded", function() {
         // Add the category description
         const categoryDescription = categoryElement.getElementsByTagName('description')[0];
         if (categoryDescription) {
-            const p = document.createElement('p');
+            const p = document.createElement('h3');
             p.textContent = categoryDescription.textContent;
             section.appendChild(p);
         }
@@ -82,7 +82,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     // Function to fetch and process XML data
     function fetchAndProcessXML(url, category) {
-        fetch(url)
+        fetch(url, { mode: 'no-cors' })
             .then(response => response.text())
             .then(data => {
                 const parser = new DOMParser();
@@ -107,9 +107,9 @@ document.addEventListener("DOMContentLoaded", function() {
 
     // Fetch and process XML data for each category
     const categories = {
-        latest: 'Lib/Model/latestCatagory.xml',
-        popular: 'Lib/Model/popularCatagory.xml',
-        retro: 'Lib/Model/retroCatagory.xml'
+        latest: 'lib/model/latestCatagory.xml',
+        popular: 'lib/model/popularCatagory.xml',
+        retro: 'lib/model/retroCatagory.xml',
     };
 
     Object.keys(categories).forEach(category => {
