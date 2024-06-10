@@ -241,5 +241,21 @@
                 <tag>Action</tag>
             </tags>
         </game>
+        <game id="15">
+            <title>Contra 2</title>
+            <short_description>A classic run-and-gun action game where players battle through various levels to defeat an evil organization.</short_description>
+            <full_description>Join the fight against an evil organization in the classic run-and-gun action game Contra.</full_description>
+            <release_date>Feb 20, 1987</release_date>
+            <rating>Unknown</rating>
+            <author>Konami</author>
+            <publisher>Konami</publisher>
+            <price>Unknown</price>
+            <image>https://www.arcadeclub.co.uk/cdn/game-library/contra/screenshots/contra-screenshot-1.png_@1920_001.jpg</image>
+            <video></video>
+            <play>https://www.retrogames.cc/embed/16841-contra-usa.html</play>
+            <tags>
+                <tag>Action</tag>
+            </tags>
+        </game>
     </retro>
 </data>
