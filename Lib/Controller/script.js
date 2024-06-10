@@ -1,3 +1,4 @@
+
 document.addEventListener("DOMContentLoaded", function() {
     console.log('DOMContentLoaded event has been fired!');
     const gameSectionsContainer = document.getElementById('gameSectionsContainer');

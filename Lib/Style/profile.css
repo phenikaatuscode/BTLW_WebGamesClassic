@@ -65,7 +65,7 @@ body {
     border-color: rgba(24, 28, 33, 0.03) !important;
 }
 .list-group-item.active {
-    color: #4E5155 !important;
+    color: white !important;
 }
 .text-light {
     color: #babbbc !important;
