@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <indie>
+        <description>Indie</description>
+        <game id="1">
+            <title>clickyland</title>
+            <short_description>2D, Tower Defense</short_description>
+            <full_description>Tower defense village builder</full_description>
+            <release_date>Unknown</release_date>
+            <rating>Unknown</rating>
+            <author>Unknown</author>
+            <publisher>Unknown</publisher>
+            <price>$5</price>
+            <image>https://img.itch.zone/aW1nLzE2MzE1MDU5LnBuZw==/300x240%23c/z2D%2Bja.png</image>
+            <video></video>
+            <play></play>
+        </game>
+        <game id="2">
+            <title>Fohh</title>
+            <short_description>First-Person, Surreal</short_description>
+            <full_description>Explore a mysterious world with a mysterious magical companion!</full_description>
+            <release_date>Unknown</release_date>
+            <rating>Unknown</rating>
+            <author>Unknown</author>
+            <publisher>Unknown</publisher>
+            <price>FREE</price>
+            <image>https://img.itch.zone/aW1nLzE2MTM4NTM0LnBuZw==/300x240%23c/0s0dMW.png</image>
+            <video></video>
+            <play></play>
+        </game>
+        <game id="3">
+            <title>Arctic Eggs</title>
+            <short_description>Experimental, Sci-fi</short_description>
+            <full_description></full_description>
+            <release_date>Unknown</release_date>
+            <rating>Unknown</rating>
+            <author>Unknown</author>
+            <publisher>Unknown</publisher>
+            <price>$8.99</price>
+            <image>https://img.itch.zone/aW1nLzE2MTYwOTE3LnBuZw==/300x240%23c/bvhgaq.png</image>
+            <video></video>
+            <play></play>
+        </game>
+        <game id="4">
+            <title>Voyager-19</title>
+            <short_description></short_description>
+            <full_description></full_description>
+            <release_date>Unknown</release_date>
+            <rating>Unknown</rating>
+            <author>Unknown</author>
+            <publisher>Unknown</publisher>
+            <price>$4</price>
+            <image>https://img.itch.zone/aW1nLzE1ODA2Mzk5LnBuZw==/300x240%23c/AqA9NG.png</image>
+            <video></video>
+            <play></play>
+        </game>
+        <game id="5">
+            <title>Pager - Prototype v0.0</title>
+            <short_description>Horror, 1-bit</short_description>
+            <full_description>Abandoned 3D 1bit prototype made with C3</full_description>
+            <release_date>Unknown</release_date>
+            <rating>Unknown</rating>
+            <author>Unknown</author>
+            <publisher>Unknown</publisher>
+            <price>FREE</price>
+            <image>https://img.itch.zone/aW1nLzE2MjIzODI5LnBuZw==/300x240%23c/4HWJnO.png</image>
+            <video></video>
+            <play></play>
+        </game>
+        <game id="6">
+            <title>Infinimoes</title>
+            <short_description>Puzzle, PICO-8</short_description>
+            <full_description>A space filling puzzle game with polyominoes.</full_description>
+            <release_date>Unknown</release_date>
+            <rating>Unknown</rating>
+            <author>Unknown</author>
+            <publisher>Unknown</publisher>
+            <price>FREE</price>
+            <image>https://img.itch.zone/aW1nLzE2MDI2ODg5LnBuZw==/300x240%23c/dpsycJ.png</image>
+            <video></video>
+            <play></play>
+        </game>
+        <game id="7">
+            <title>Project Shoreline</title>
+            <short_description></short_description>
+            <full_description>Explore, Clean and Restore as a Cute Character in this Cozy Cleaning Mini-Adventure!</full_description>
+            <release_date>Unknown</release_date>
+            <rating>Unknown</rating>
+            <author>Unknown</author>
+            <publisher>Unknown</publisher>
+            <price>FREE</price>
+            <image>https://img.itch.zone/aW1nLzE1NTMzMjU0LnBuZw==/300x240%23c/eEIyZM.png</image>
+            <video></video>
+            <play></play>
+        </game>
+        <game id="8">
+            <title>Mind Over Magnet</title>
+            <short_description></short_description>
+            <full_description>An attractive puzzle platformer!</full_description>
+            <release_date>Unknown</release_date>
+            <rating>Unknown</rating>
+            <author>Unknown</author>
+            <publisher>Unknown</publisher>
+            <price>FREE</price>
+            <image>https://img.itch.zone/aW1nLzE2NDIxMzkwLnBuZw==/300x240%23c/YEIxg2.png</image>
+            <video></video>
+            <play></play>
+        </game>
+        <game id="9">
+            <title>Daymare Cat //10-Year Anniversary</title>
+            <short_description></short_description>
+            <full_description>Just a small Cat in a big Town.</full_description>
+            <release_date>Unknown</release_date>
+            <rating>Unknown</rating>
+            <author>Unknown</author>
+            <publisher>Unknown</publisher>
+            <price>FREE</price>
+            <image>https://img.itch.zone/aW1nLzEyNTg4NDY3LnBuZw==/300x240%23c/sCX4aZ.png</image>
+            <video></video>
+            <play></play>
+        </game>
+        <game id="10">
+            <title>Little Buddy Move</title>
+            <short_description></short_description>
+            <full_description>Interactive Music Video App</full_description>
+            <release_date>Unknown</release_date>
+            <rating>Unknown</rating>
+            <author>Unknown</author>
+            <publisher>Unknown</publisher>
+            <price>FREE</price>
+            <image>https://img.itch.zone/aW1nLzEzMDA2MjEzLnBuZw==/300x240%23c/iu72uJ.png</image>
+            <video></video>
+            <play></play>
+        </game>
+        <game id="11">
+            <title>CARS</title>
+            <short_description></short_description>
+            <full_description>BEEP BEEP!!</full_description>
+            <release_date>Unknown</release_date>
+            <rating>Unknown</rating>
+            <author>Unknown</author>
+            <publisher>Unknown</publisher>
+            <price>$2.99</price>
+            <image>https://img.itch.zone/aW1nLzE1NTg5MDI5LnBuZw==/300x240%23c/mF%2BZhL.png</image>
+            <video></video>
+            <play></play>
+        </game>
+        <game id="12">
+            <title>Meet Me at the Workers' Club</title>
+            <short_description></short_description>
+            <full_description>A virtual exhibition about art and revolution</full_description>
+            <release_date>Unknown</release_date>
+            <rating>Unknown</rating>
+            <author>Unknown</author>
+            <publisher>Unknown</publisher>
+            <price>FREE</price>
+            <image>https://img.itch.zone/aW1nLzE1OTgzNjQ5LnBuZw==/300x240%23c/oyj7OQ.png</image>
+            <video></video>
+            <play></play>
+        </game>
+        <game id="13">
+            <title>Tristram</title>
+            <short_description></short_description>
+            <full_description>Homage to classic dungeon-crawling adventures</full_description>
+            <release_date>Unknown</release_date>
+            <rating>Unknown</rating>
+            <author>Unknown</author>
+            <publisher>Unknown</publisher>
+            <price>FREE</price>
+            <image>https://img.itch.zone/aW1nLzE1Nzg4NTAzLnBuZw==/300x240%23c/Jm0Ukk.png</image>
+            <video></video>
+            <play></play>
+        </game>
+        <game id="14">
+            <title>The Masculine Urge</title>
+            <short_description></short_description>
+            <full_description>Headache-inducing experience for the bravest of souls</full_description>
+            <release_date>Unknown</release_date>
+            <rating>Unknown</rating>
+            <author>Unknown</author>
+            <publisher>Unknown</publisher>
+            <price>$1.99</price>
+            <image>https://img.itch.zone/aW1nLzE1Njk1OTE2LnBuZw==/300x240%23c/gdTiuC.png</image>
+            <video></video>
+            <play></play>
+        </game>
+        <game id="15">
+            <title>Indiepocalypse #52</title>
+            <short_description></short_description>
+            <full_description>Issue #52 of a monthly indie game anthology collecting games from 10 developers.</full_description>
+            <release_date>Unknown</release_date>
+            <rating>Unknown</rating>
+            <author>Unknown</author>
+            <publisher>Unknown</publisher>
+            <price>$15</price>
+            <image>https://img.itch.zone/aW1nLzE2MDAwODE4LmdpZg==/300x240%23cm/0wSnbj.gif</image>
+            <video></video>
+            <play></play>
+        </game>
+        <game id="16">
+            <title>Gauntlet of Power - Teaser Demo</title>
+            <short_description></short_description>
+            <full_description>Binding of Isaac meets Vampire Survivors</full_description>
+            <release_date>Unknown</release_date>
+            <rating>Unknown</rating>
+            <author>Unknown</author>
+            <publisher>Unknown</publisher>
+            <price>FREE</price>
+            <image>https://img.itch.zone/aW1nLzE1ODc3ODY2LmpwZw==/300x240%23c/f8zW%2FZ.jpg</image>
+            <video></video>
+            <play></play>
+        </game>
+        <game id="17">
+            <title>Deliver To Whence You Came</title>
+            <short_description>Ludum Dare 53, Experimental</short_description>
+            <full_description>The world is alive. Feed it.</full_description>
+            <release_date>Unknown</release_date>
+            <rating>Unknown</rating>
+            <author>Unknown</author>
+            <publisher>Unknown</publisher>
+            <price>FREE</price>
+            <image>https://img.itch.zone/aW1nLzEyMDQ3ODA4LmdpZg==/300x240%23cm/j35jiy.gif</image>
+            <video></video>
+            <play></play>
+        </game>
+        <game id="18">
+            <title>Cursorblade (Demo)</title>
+            <short_description></short_description>
+            <full_description>Bullet hell but you are the cursor</full_description>
+            <release_date>Unknown</release_date>
+            <rating>Unknown</rating>
+            <author>Unknown</author>
+            <publisher>Unknown</publisher>
+            <price>FREE</price>
+            <image>https://img.itch.zone/aW1nLzEyOTIyMzU2LnBuZw==/300x240%23c/%2BdBOI%2F.png</image>
+            <video></video>
+            <play></play>
+        </game>
+        <game id="19">
+            <title>Block Droppin' (Game Boy)</title>
+            <short_description></short_description>
+            <full_description>Match 3 action for your Game Boy!</full_description>
+            <release_date>Unknown</release_date>
+            <rating>Unknown</rating>
+            <author>Unknown</author>
+            <publisher>Unknown</publisher>
+            <price>50% OFF</price>
+            <image>https://img.itch.zone/aW1nLzE1OTgyOTY1LnBuZw==/300x240%23c/1QltPo.png</image>
+            <video></video>
+            <play></play>
+        </game>
+        <game id="20">
+            <title>Project Homecoming Haven</title>
+            <short_description></short_description>
+            <full_description>Embark on a heartwarming adventure</full_description>
+            <release_date>Unknown</release_date>
+            <rating>Unknown</rating>
+            <author>Unknown</author>
+            <publisher>Unknown</publisher>
+            <price>FREE</price>
+            <image>https://img.itch.zone/aW1nLzE1MDE4Njc1LnBuZw==/300x240%23c/r2QYCo.png</image>
+            <video></video>
+            <play></play>
+        </game>
+         <game id="21">
+            <title>Yobot Run - retro runner platform</title>
+            <short_description></short_description>
+            <full_description>Embark on a heartwarming adventure</full_description>
+            <release_date>Unknown</release_date>
+            <rating>Unknown</rating>
+            <author>Unknown</author>
+            <publisher>Unknown</publisher>
+            <price>FREE</price>
+            <image>https://img.itch.zone/aW1hZ2UvMjE0NjIwLzEwMTE4NjEuanBn/300x240%23c/t7dLzN.jpg</image>
+            <video></video>
+            <play></play>
+        </game>
+    </indie>
+</data>

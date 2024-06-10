@@ -39,7 +39,8 @@ body {
 
 .content {
     padding: 20px;
-    max-width: 800px;
+    max-width: 1000px;
+    min-height: 1000px ;
     margin: auto;
     background-color: #e9d8a6;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -107,5 +108,5 @@ body {
     position: bottom !important;
     padding: 4px;
     width: 100%;
-    bottom: 0;
+    
 }

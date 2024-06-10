@@ -111,6 +111,7 @@ document.addEventListener("DOMContentLoaded", function() {
         latest: 'lib/model/latestCatagory.xml',
         popular: 'lib/model/popularCatagory.xml',
         retro: 'lib/model/retroCatagory.xml',
+        indie: 'lib/model/indieCatagory.xml',
     };
 
     Object.keys(categories).forEach(category => {
