@@ -107,9 +107,9 @@ document.addEventListener("DOMContentLoaded", function() {
 
     // Fetch and process XML data for each category
     const categories = {
-        latest: 'Lib/Model/latestCatagory.xml',
-        popular: 'Lib/Model/popularCatagory.xml',
-        retro: 'Lib/Model/retroCatagory.xml'
+        latest: '/Lib/Model/latestCatagory.xml',
+        popular: '/Lib/Model/popularCatagory.xml',
+        retro: '/Lib/Model/retroCatagory.xml'
     };
 
     Object.keys(categories).forEach(category => {
