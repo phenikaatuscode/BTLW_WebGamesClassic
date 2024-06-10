@@ -64,7 +64,7 @@ a {
 
 .top-menu-items > ul > li {
   font-family: var(--main-text-font);
-  padding: 0 13px;
+  padding: 0 12px;
   height: 100%;
   display: flex;
   justify-content: center;
