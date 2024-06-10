@@ -1,4 +1,5 @@
 document.addEventListener("DOMContentLoaded", function() {
+    console.log('DOMContentLoaded event has been fired!');
     const gameSectionsContainer = document.getElementById('gameSectionsContainer');
     if (!gameSectionsContainer) {
         console.error('gameSectionsContainer element not found!');
@@ -43,7 +44,7 @@ document.addEventListener("DOMContentLoaded", function() {
             channel.postMessage(gameData);
 
             // Redirect to the game item page
-            window.location.href = 'Lib/Pages/gameItemPage.html';
+            window.location.href = '/Lib/Pages/gameItemPage.html';
         };
 
         return gameItem;
