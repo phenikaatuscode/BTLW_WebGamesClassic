@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <retro>
+        <description>Retro classic games from your childhood.</description>
+        <game id="1">
+            <title>Super Mario World</title>
+            <short_description>Join Mario and Luigi on their adventure to save Princess Peach from Bowser's clutches in this classic platformer.</short_description>
+            <full_description>Experience the classic platforming adventure with Mario and Luigi in Super Mario World.</full_description>
+            <release_date>NOV 21, 1990</release_date>
+            <rating>Unknown</rating>
+            <author>Nintendo</author>
+            <publisher>Nintendo</publisher>
+            <price>Unknown</price>
+            <image>https://upload.wikimedia.org/wikipedia/en/thumb/3/32/Super_Mario_World_Coverart.png/220px-Super_Mario_World_Coverart.png</image>
+            <video></video>
+            <play>https://www.retrogames.cc/embed/43848-super-mario-world-unl.html</play>
+            <tags>
+                <tag>Platformer</tag>
+                <tag>Adventure</tag>
+                <tag>Action</tag>
+            </tags>
+        </game>
+        <game id="2">
+            <title>The Legend of Zelda: A Link to the Past</title>
+            <short_description>Embark on a quest with Link to rescue Princess Zelda and defeat the evil sorcerer Agahnim in this classic action-adventure game.</short_description>
+            <full_description>Join Link on a legendary adventure to rescue Princess Zelda and defeat the evil sorcerer Agahnim.</full_description>
+            <release_date>Nov 21, 1991</release_date>
+            <rating>Unknown</rating>
+            <author>Nintendo</author>
+            <publisher>Nintendo</publisher>
+            <price>Unknown</price>
+            <image>https://upload.wikimedia.org/wikipedia/en/thumb/2/21/The_Legend_of_Zelda_A_Link_to_the_Past_SNES_Game_Cover.jpg/220px-The_Legend_of_Zelda_A_Link_to_the_Past_SNES_Game_Cover.jpg</image>
+            <video></video>
+            <play>https://www.retrogames.cc/embed/44561-a-link-to-the-past-kaizo-edition.htm</play>
+            <tags>
+                <tag>Adventure</tag>
+                <tag>Action</tag>
+            </tags>
+        </game>
+        <game id="3">
+            <title>Super Metroid</title>
+            <short_description>Help Samus Aran explore the planet Zebes, defeat the Space Pirates, and stop the evil Mother Brain in this classic action-adventure game.</short_description>
+            <full_description>Help Samus Aran in her mission to explore Zebes, defeat Space Pirates, and stop Mother Brain.</full_description>
+            <release_date>Mar 19, 1994</release_date>
+            <rating>Unknown</rating>
+            <author>Nintendo</author>
+            <publisher>Nintendo</publisher>
+            <price>Unknown</price>
+            <image>https://upload.wikimedia.org/wikipedia/en/thumb/e/e4/Smetroidbox.jpg/220px-Smetroidbox.jpg</image>
+            <video></video>
+            <play>https://www.retrogames.cc/embed/16893-super-metroid-japan-usa-en-ja.html</play>
+            <tags>
+                <tag>Adventure</tag>
+                <tag>Action</tag>
+            </tags>
+        </game>
+        <game id="4">
+            <title>Castlevania: Symphony of the Night</title>
+            <short_description>Play as Alucard, the son of Dracula, as you explore Dracula's castle, defeat powerful enemies, and uncover the secrets of the night.</short_description>
+            <full_description>Explore Dracula's castle as Alucard in this critically acclaimed action-adventure game.</full_description>
+            <release_date>Mar 20, 1997</release_date>
+            <rating>Unknown</rating>
+            <author>Konami</author>
+            <publisher>Konami</publisher>
+            <price>Unknown</price>
+            <image>https://upload.wikimedia.org/wikipedia/en/thumb/c/cf/Castlevania_SOTN_PAL.jpg/220px-Castlevania_SOTN_PAL.jpg</image>
+            <video></video>
+            <play>https://www.retrogames.cc/embed/41504-castlevania-symphony-of-the-night.html</play>
+            <tags>
+                <tag>Adventure</tag>
+                <tag>Action</tag>
+            </tags>
+        </game>
+        <game id="5">
+            <title>Metroid Fusion</title>
+            <short_description>Help Samus Aran overcome an infection caused by the X Parasite, uncover the secrets of the research station, and save the galaxy.</short_description>
+            <full_description>Join Samus Aran in her mission to overcome the X Parasite infection and uncover the secrets of the research station.</full_description>
+            <release_date>Nov 17, 2002</release_date>
+            <rating>Unknown</rating>
+            <author>Nintendo</author>
+            <publisher>Nintendo</publisher>
+            <price>Unknown</price>
+            <image>https://upload.wikimedia.org/wikipedia/en/4/45/Metroid_Fusion_box.jpg</image>
+            <video></video>
+            <play>https://www.retrogames.cc/embed/20567-metroid-fusion-u-gbanow.html</play>
+            <tags>
+                <tag>Adventure</tag>
+                <tag>Action</tag>
+            </tags>
+        </game>
+        <game id="6">
+            <title>Pac-Man Collection</title>
+            <short_description>Enjoy four classic Pac-Man games in one package: Pac-Man, Pac-Mania, Pac-Attack, and Pac-Man Arrangement.</short_description>
+            <full_description>Relive the arcade magic with Pac-Man Collection, featuring four classic Pac-Man games in one package.</full_description>
+            <release_date>Jun 20, 2001</release_date>
+            <rating>Unknown</rating>
+            <author>Namco</author>
+            <publisher>Namco</publisher>
+            <price>Unknown</price>
+            <image>https://upload.wikimedia.org/wikipedia/en/thumb/3/3b/Pac-Man_Collection_Coverart.png/220px-Pac-Man_Collection_Coverart.png</image>
+            <video></video>
+            <play>https://www.retrogames.cc/embed/17283-pac-man-collection-e-lightforce.html</play>
+            <tags>
+                <tag>Action</tag>
+            </tags>
+        </game>
+        <game id="7">
+            <title>Mario Kart Super Circuit</title>
+            <short_description>Race with Mario and friends through challenging tracks to win the coveted Mario Kart trophies. Unlock new tracks and master power-ups to outsmart opponents.</short_description>
+            <full_description>Join Mario and friends in exciting kart racing action with challenging tracks and power-ups.</full_description>
+            <release_date>Aug 27, 2001</release_date>
+            <rating>Unknown</rating>
+            <author>Nintendo</author>
+            <publisher>Nintendo</publisher>
+            <price>Unknown</price>
+            <image>https://mario.wiki.gallery/images/thumb/0/0f/MKSC_Box_Art.jpg/270px-MKSC_Box_Art.jpg</image>
+            <video></video>
+            <play>https://www.retrogames.cc/embed/43989-sonic-smk.html</play>
+            <tags>
+                <tag>Racing</tag>
+                <tag>Action</tag>
+            </tags>
+        </game>
+        <game id="8">
+            <title>Super Mario Bros. 3</title>
+            <short_description>Join Mario and Luigi on their quest to rescue Princess Peach and save the Mushroom Kingdom from the clutches of Bowser.</short_description>
+            <full_description>Help Mario and Luigi rescue Princess Peach and save the Mushroom Kingdom from Bowser in this classic platformer.</full_description>
+            <release_date>Oct 23, 1988</release_date>
+            <rating>Unknown</rating>
+            <author>Nintendo</author>
+            <publisher>Nintendo</publisher>
+            <price>Unknown</price>
+            <image>https://upload.wikimedia.org/wikipedia/en/thumb/a/a5/Super_Mario_Bros._3_coverart.png/220px-Super_Mario_Bros._3_coverart.png</image>
+            <video></video>
+            <play>https://www.retrogames.cc/embed/42869-super-mario-3-crowned-koopapeach.html</play>
+            <tags>
+                <tag>Platformer</tag>
+                <tag>Adventure</tag>
+                <tag>Action</tag>
+            </tags>
+        </game>
+        <game id="9">
+            <title>Mega Man 2</title>
+            <short_description>Battle the evil forces of Sigma and his army of Mavericks as the powerful Mega Man X in this action-packed platformer.</short_description>
+            <full_description>Join Mega Man 2 in his battle against Sigma and his army of Mavericks in this action-packed platformer.</full_description>
+            <release_date>Dec 17, 1993</release_date>
+            <rating>Unknown</rating>
+            <author>Capcom</author>
+            <publisher>Capcom</publisher>
+            <price>Unknown</price>
+            <image>https://upload.wikimedia.org/wikipedia/en/thumb/8/88/MEGAMANXCharacters.png/220px-MEGAMANXCharacters.png</image>
+            <video></video>
+            <play>https://www.retrogames.cc/embed/9138-mega-man-the-power-battle-951006-usa.html</play>
+            <tags>
+                <tag>Platformer</tag>
+                <tag>Action</tag>
+            </tags>
+        </game>
+        <game id="10">
+            <title>Street Fighter II</title>
+            <short_description>Street Fighter II is a competitive fighting game featuring a variety of characters with unique fighting styles and special moves.</short_description>
+            <full_description>Experience the classic fighting game Street Fighter II, featuring iconic characters and intense battles.</full_description>
+            <release_date>Feb 6, 1991</release_date>
+            <rating>Unknown</rating>
+            <author>Capcom</author>
+            <publisher>Capcom</publisher>
+            <price>Unknown</price>
+            <image>https://upload.wikimedia.org/wikipedia/vi/thumb/1/1d/SF2_JPN_flyer.jpg/220px-SF2_JPN_flyer.jpg</image>
+            <video></video>
+            <play>https://www.retrogames.cc/embed/9976-street-fighter-ii-champion-edition-alpha-magic-f-bootleg-set-2-920313-etc-bootleg.html</play>
+            <tags>
+                <tag>Fighting</tag>
+                <tag>Action</tag>
+            </tags>
+        </game>
+        <game id="11">
+            <title>Super Mario Bros.</title>
+            <short_description>Super Mario Bros. is a platform game where players control Mario as he travels through the Mushroom Kingdom to rescue Princess Toadstool from Bowser.</short_description>
+            <full_description>Join Mario on his classic adventure to rescue Princess Toadstool from Bowser in the original Super Mario Bros.</full_description>
+            <release_date>Sep 13, 1985</release_date>
+            <rating>Unknown</rating>
+            <author>Nintendo</author>
+            <publisher>Nintendo</publisher>
+            <price>Unknown</price>
+            <image>https://upload.wikimedia.org/wikipedia/en/thumb/0/03/Super_Mario_Bros._box.png/220px-Super_Mario_Bros._box.png</image>
+            <video></video>
+            <play>https://www.retrogames.cc/embed/43736-smb-special-35th-anniversary-edition.html</play>
+            <tags>
+                <tag>Platformer</tag>
+                <tag>Adventure</tag>
+                <tag>Action</tag>
+            </tags>
+        </game>
+        <game id="12">
+            <title>Donkey Kong</title>
+            <short_description>Donkey Kong is an arcade game where players control Jumpman (later known as Mario) as he attempts to rescue a damsel in distress from Donkey Kong.</short_description>
+            <full_description>Help Jumpman (Mario) rescue a damsel in distress from Donkey Kong in this classic arcade game.</full_description>
+            <release_date>Jul 9, 1981</release_date>
+            <rating>Unknown</rating>
+            <author>Nintendo</author>
+            <publisher>Nintendo</publisher>
+            <price>Unknown</price>
+            <image>https://upload.wikimedia.org/wikipedia/en/1/14/Donkey_Kong_flier.jpg</image>
+            <video></video>
+            <play>https://www.retrogames.cc/embed/8298-donkey-kong-japan-set-1.html</play>
+            <tags>
+                <tag>Platformer</tag>
+                <tag>Action</tag>
+            </tags>
+        </game>
+        <game id="13">
+            <title>Space Invaders</title>
+            <short_description>Space Invaders is a classic arcade shooter where players control a laser cannon and defend against waves of invading aliens.</short_description>
+            <full_description>Defend against waves of invading aliens in the classic arcade shooter Space Invaders.</full_description>
+            <release_date>Jun 1978</release_date>
+            <rating>Unknown</rating>
+            <author>Taito</author>
+            <publisher>Taito</publisher>
+            <price>Unknown</price>
+            <image>https://upload.wikimedia.org/wikipedia/en/thumb/0/0f/Space_Invaders_flyer%2C_1978.jpg/220px-Space_Invaders_flyer%2C_1978.jpg</image>
+            <video></video>
+            <play>https://www.retrogames.cc/embed/22875-space-invaders-the-original-game-usa.html</play>
+            <tags>
+                <tag>Shooter</tag>
+                <tag>Action</tag>
+            </tags>
+        </game>
+        <game id="14">
+            <title>Contra</title>
+            <short_description>A classic run-and-gun action game where players battle through various levels to defeat an evil organization.</short_description>
+            <full_description>Join the fight against an evil organization in the classic run-and-gun action game Contra.</full_description>
+            <release_date>Feb 20, 1987</release_date>
+            <rating>Unknown</rating>
+            <author>Konami</author>
+            <publisher>Konami</publisher>
+            <price>Unknown</price>
+            <image>https://www.arcadeclub.co.uk/cdn/game-library/contra/screenshots/contra-screenshot-1.png_@1920_001.jpg</image>
+            <video></video>
+            <play>https://www.retrogames.cc/embed/16841-contra-usa.html</play>
+            <tags>
+                <tag>Action</tag>
+            </tags>
+        </game>
+    </retro>
+</data>
