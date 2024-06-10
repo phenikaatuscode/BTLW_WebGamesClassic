@@ -11,7 +11,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: url(/BTLW_WebGamesClassic/main/Assets/wallpaperflare.com_wallpaper\ \(5\).jpg) no-repeat;
+    background: url(/main/Assets/mario\ pixel\ art\ gift.jpg) no-repeat;
     
     background-size: cover;
     background-position: center;
@@ -93,6 +93,10 @@ body {
     font-size: 16px;
     color: #333;
     font-weight: 600;
+
+}
+.wrapper .btn a {
+    text-decoration: none;
 }
 
 .wrapper .register-link {
