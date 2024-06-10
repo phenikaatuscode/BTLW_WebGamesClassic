@@ -93,6 +93,10 @@ body {
     font-size: 16px;
     color: #333;
     font-weight: 600;
+
+}
+.wrapper .btn a {
+    text-decoration: none;
 }
 
 .wrapper .register-link {
