@@ -61,7 +61,7 @@ document.addEventListener("DOMContentLoaded", function() {
         // Add the category description
         const categoryDescription = categoryElement.getElementsByTagName('description')[0];
         if (categoryDescription) {
-            const p = document.createElement('p');
+            const p = document.createElement('h3');
             p.textContent = categoryDescription.textContent;
             section.appendChild(p);
         }
